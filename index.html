@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Signal Radar">
+<title>Signal Radar — ردیاب عملکرد سیگنال</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-date-fns/3.0.0/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+  :root{
+    --bg: #0A0E17;
+    --surface: #121826;
+    --surface-2: #1A2233;
+    --border: #262F42;
+    --text: #EDF1F7;
+    --text-dim: #8993AC;
+    --text-faint: #5A6478;
+    --gain: #2FE0A8;
+    --gain-bg: rgba(47,224,168,0.12);
+    --loss: #FF5D6C;
+    --loss-bg: rgba(255,93,108,0.12);
+    --gold: #F2B84B;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{background:var(--bg);}
+  body{
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -5%, rgba(242,184,75,0.07), transparent),
+      radial-gradient(ellipse 900px 600px at 100% 15%, rgba(47,224,168,0.06), transparent),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    min-height:100vh;
+    padding-bottom:48px;
+  }
+  .mono{ font-family:'IBM Plex Mono', monospace; font-variant-numeric: tabular-nums; direction:ltr; unicode-bidi:isolate; }
+  .display{ font-family:'Space Grotesk', sans-serif; }
+
+  /* ---------- Ticker ---------- */
+  .ticker-wrap{
+    background:linear-gradient(180deg, #0D1220, #0A0E17);
+    border-bottom:1px solid var(--border);
+    overflow:hidden;
+    white-space:nowrap;
+    padding:9px 0;
+    position:sticky; top:0; z-index:50;
+  }
+  .ticker-track{
+    display:inline-flex;
+    animation: scroll-ticker 45s linear infinite;
+  }
+  .ticker-wrap:hover .ticker-track{ animation-play-state:paused; }
+  @keyframes scroll-ticker{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+  .ticker-item{
+    display:inline-flex; align-items:center; gap:6px;
+    padding:0 18px; font-size:12.5px; font-family:'IBM Plex Mono', monospace;
+    border-left:1px solid var(--border);
+  }
+  .ticker-item b{ color:var(--text); font-weight:600; }
+  .ticker-up{ color:var(--gain); }
+  .ticker-down{ color:var(--loss); }
+
+  /* ---------- Shell ---------- */
+  .shell{ max-width:920px; margin:0 auto; padding:0 16px; }
+  header.hero{ padding:28px 0 8px; }
+  .eyebrow{
+    display:flex; align-items:center; gap:8px;
+    font-size:12px; color:var(--text-dim); letter-spacing:.03em;
+    margin-bottom:14px;
+  }
+  .pulse-dot{
+    width:8px; height:8px; border-radius:50%; background:var(--gold);
+    box-shadow:0 0 0 0 rgba(242,184,75,0.6);
+    animation: pulse 2s infinite;
+    flex-shrink:0;
+  }
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(242,184,75,0.55);}
+    70%{box-shadow:0 0 0 8px rgba(242,184,75,0);}
+    100%{box-shadow:0 0 0 0 rgba(242,184,75,0);}
+  }
+  h1.brand{ font-size:26px; font-weight:700; letter-spacing:-0.01em; }
+  h1.brand span{ color:var(--gold); }
+  .subtitle{ color:var(--text-dim); font-size:13.5px; margin-top:4px; }
+
+  .hero-value{ margin-top:22px; }
+  .hero-value .amount{ font-size:44px; font-weight:600; line-height:1; }
+  .hero-value .delta{ font-size:16px; margin-top:8px; display:inline-flex; align-items:center; gap:6px;
+    padding:4px 10px; border-radius:20px; font-weight:600; }
+  .delta.pos{ color:var(--gain); background:var(--gain-bg); }
+  .delta.neg{ color:var(--loss); background:var(--loss-bg); }
+
+  .stat-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-top:20px; }
+  .stat-chip{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:12px 14px;
+  }
+  .stat-chip .label{ font-size:11px; color:var(--text-faint); }
+  .stat-chip .value{ font-size:18px; font-weight:600; margin-top:3px; font-family:'IBM Plex Mono',monospace; }
+
+  /* ---------- Sections ---------- */
+  section{ margin-top:34px; }
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px; }
+  .section-head h2{ font-size:16px; font-weight:600; }
+  .section-head .hint{ font-size:11.5px; color:var(--text-faint); }
+
+  .card{
+    background:var(--surface); border:1px solid var(--border); border-radius:18px;
+    padding:16px; position:relative; overflow:hidden;
+  }
+  .chart-box{ position:relative; height:230px; }
+  .chart-box.tall{ height:320px; }
+
+  /* ---------- Leaderboard ---------- */
+  .leader-row{ display:flex; align-items:center; gap:10px; padding:9px 2px; border-bottom:1px solid var(--border); }
+  .leader-row:last-child{ border-bottom:none; }
+  .leader-rank{ width:20px; font-size:11px; color:var(--text-faint); font-family:'IBM Plex Mono',monospace; }
+  .leader-sym{ font-weight:600; font-size:13.5px; min-width:76px; }
+  .leader-badge{ font-size:10px; color:var(--text-faint); background:var(--surface-2); border-radius:8px; padding:1px 6px; }
+  .leader-bar-track{ flex:1; height:8px; background:var(--surface-2); border-radius:6px; overflow:hidden; }
+  .leader-bar-fill{ height:100%; border-radius:6px; }
+  .leader-pct{ width:64px; text-align:left; font-size:13px; font-family:'IBM Plex Mono',monospace; font-weight:600; }
+
+  /* ---------- Coin grid ---------- */
+  .coin-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+  .coin-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:14px;
+    padding:12px; display:flex; flex-direction:column; gap:6px;
+  }
+  .coin-card-top{ display:flex; justify-content:space-between; align-items:flex-start; }
+  .coin-sym{ font-weight:600; font-size:14px; }
+  .coin-meta{ font-size:10px; color:var(--text-faint); margin-top:2px; }
+  .coin-pct{ font-size:13px; font-weight:600; font-family:'IBM Plex Mono',monospace; }
+  .coin-spark{ height:44px; }
+
+  footer{ margin-top:44px; padding:0 16px; text-align:center; }
+  footer p{ font-size:11.5px; color:var(--text-faint); line-height:1.7; }
+  footer a{ color:var(--gold); text-decoration:none; }
+
+  .empty-state{ text-align:center; padding:60px 20px; color:var(--text-dim); }
+  .empty-state .display{ font-size:20px; color:var(--text); margin-bottom:8px; }
+
+  @media (max-width:480px){
+    .hero-value .amount{ font-size:36px; }
+    .coin-grid{ grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="ticker-wrap"><div class="ticker-track" id="tickerTrack"></div></div>
+
+  <div class="shell">
+    <header class="hero">
+      <div class="eyebrow"><span class="pulse-dot"></span><span id="lastUpdate">در حال بارگذاری…</span></div>
+      <h1 class="brand">Signal <span>Radar</span></h1>
+      <p class="subtitle">پیگیری خودکار عملکرد واقعی سیگنال‌های اسکرینر کریپتو</p>
+
+      <div class="hero-value">
+        <div class="amount mono" id="portfolioValue">$0</div>
+        <div class="delta" id="portfolioDelta">—</div>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-chip"><div class="label">کوین‌های پیگیری‌شده</div><div class="value" id="statCount">—</div></div>
+        <div class="stat-chip"><div class="label">نرخ موفقیت</div><div class="value" id="statWinRate">—</div></div>
+        <div class="stat-chip"><div class="label">همبستگی امتیاز/بازده</div><div class="value" id="statCorr">—</div></div>
+      </div>
+    </header>
+
+    <section>
+      <div class="section-head"><h2>روند ارزش پرتفوی</h2><span class="hint">۱۰۰ دلار به‌ازای هر کوین</span></div>
+      <div class="card"><div class="chart-box tall"><canvas id="portfolioChart"></canvas></div></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>رتبه‌بندی بازدهی کوین‌ها</h2><span class="hint">از بهترین به بدترین</span></div>
+      <div class="card" id="leaderboard"></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>امتیاز ربات در برابر بازده واقعی</h2><span class="hint">هر نقطه یک کوین</span></div>
+      <div class="card"><div class="chart-box"><canvas id="scatterChart"></canvas></div></div>
+    </section>
+
+    <section>
+      <div class="section-head"><h2>روند تک‌تک کوین‌ها</h2><span class="hint">از لحظه معرفی تا الان</span></div>
+      <div class="coin-grid" id="coinGrid"></div>
+    </section>
+
+    <footer>
+      <p>
+        این داشبورد صرفاً برای بررسی و آزمایش دقت سیگنال‌هاست، نه توصیه سرمایه‌گذاری.
+        بازار کریپتو پرنوسان است و عملکرد گذشته تضمینی برای آینده نیست.<br>
+        منبع سیگنال‌ها: <a href="https://github.com/hamed7razi-oss/crypto-growth-screener" target="_blank">crypto-growth-screener</a>
+      </p>
+    </footer>
+  </div>
+
+<script>
+const GAIN = '#2FE0A8', LOSS = '#FF5D6C', GOLD = '#F2B84B', DIM = '#8993AC', BORDER = '#262F42';
+Chart.defaults.font.family = "'IBM Plex Mono', monospace";
+Chart.defaults.color = DIM;
+
+const fmtUSD = (v) => '$' + v.toLocaleString('en-US', {maximumFractionDigits: v < 10 ? 4 : 2});
+const fmtPct = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
+
+async function loadData(){
+  try{
+    const [tracked, history] = await Promise.all([
+      fetch('data/tracked_coins.json').then(r => r.ok ? r.json() : []),
+      fetch('data/price_history.json').then(r => r.ok ? r.json() : []),
+    ]);
+    return {tracked, history};
+  }catch(e){
+    console.error(e);
+    return {tracked: [], history: []};
+  }
+}
+
+function computePerf(tracked, history){
+  if(!history.length) return [];
+  const latest = history[history.length - 1].prices;
+  return tracked.map(c => {
+    const price = latest[c.symbol];
+    const entry = c.entry_price;
+    const pct = (price && entry) ? (price/entry - 1) * 100 : null;
+    return {...c, latestPrice: price, pct};
+  }).filter(c => c.pct !== null);
+}
+
+function renderTicker(perf){
+  const track = document.getElementById('tickerTrack');
+  if(!perf.length){ track.innerHTML = '<span class="ticker-item">در انتظار داده…</span>'; return; }
+  const items = perf.map(c => {
+    const cls = c.pct >= 0 ? 'ticker-up' : 'ticker-down';
+    const arrow = c.pct >= 0 ? '▲' : '▼';
+    return `<span class="ticker-item"><b>${c.symbol}</b><span class="${cls}">${arrow} ${fmtPct(c.pct)}</span></span>`;
+  }).join('');
+  track.innerHTML = items + items; // دوبار برای اسکرول بی‌درز
+}
+
+function renderHero(perf){
+  const total = perf.reduce((sum, c) => sum + 100 * (c.latestPrice / c.entry_price), 0);
+  const baseline = perf.length * 100;
+  const pct = baseline ? (total/baseline - 1) * 100 : 0;
+
+  document.getElementById('portfolioValue').textContent = fmtUSD(total || 0);
+  const deltaEl = document.getElementById('portfolioDelta');
+  deltaEl.textContent = (pct >= 0 ? '▲ ' : '▼ ') + fmtPct(pct) + ' از ' + fmtUSD(baseline || 0);
+  deltaEl.className = 'delta ' + (pct >= 0 ? 'pos' : 'neg');
+
+  const winners = perf.filter(c => c.pct > 0).length;
+  document.getElementById('statCount').textContent = perf.length;
+  document.getElementById('statWinRate').textContent = perf.length ? Math.round(winners/perf.length*100) + '%' : '—';
+}
+
+function pearson(xs, ys){
+  const n = xs.length;
+  if(n < 2) return null;
+  const mx = xs.reduce((a,b)=>a+b,0)/n, my = ys.reduce((a,b)=>a+b,0)/n;
+  let num=0, dx=0, dy=0;
+  for(let i=0;i<n;i++){ num += (xs[i]-mx)*(ys[i]-my); dx += (xs[i]-mx)**2; dy += (ys[i]-my)**2; }
+  const denom = Math.sqrt(dx*dy);
+  return denom ? num/denom : null;
+}
+
+function renderPortfolioChart(tracked, history){
+  const ctx = document.getElementById('portfolioChart');
+  const labels = history.map(h => new Date(h.timestamp));
+  const values = history.map(h => {
+    return tracked.reduce((sum, c) => {
+      const p = h.prices[c.symbol];
+      return sum + (p && c.entry_price ? 100 * p / c.entry_price : 100);
+    }, 0);
+  });
+  const baseline = tracked.length * 100;
+  const positive = values[values.length-1] >= baseline;
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          data: values,
+          borderColor: positive ? GAIN : LOSS,
+          backgroundColor: (positive ? GAIN : LOSS) + '22',
+          borderWidth: 2, fill: true, tension: 0.3, pointRadius: 0, pointHoverRadius: 4,
+        },
+        {
+          data: labels.map(()=>baseline),
+          borderColor: BORDER, borderWidth: 1, borderDash: [4,4], pointRadius: 0, fill: false,
+        }
+      ]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { type: 'time', time: { unit: 'day' }, grid: { color: BORDER }, ticks: { maxRotation: 0 } },
+        y: { grid: { color: BORDER }, ticks: { callback: (v) => '$'+v } },
+      }
+    }
+  });
+}
+
+function renderLeaderboard(perf){
+  const el = document.getElementById('leaderboard');
+  if(!perf.length){ el.innerHTML = '<div class="empty-state">هنوز داده کافی نیست</div>'; return; }
+  const sorted = [...perf].sort((a,b) => b.pct - a.pct);
+  const maxAbs = Math.max(...sorted.map(c => Math.abs(c.pct)), 1);
+  el.innerHTML = sorted.map((c, i) => {
+    const color = c.pct >= 0 ? GAIN : LOSS;
+    const width = Math.min(100, Math.abs(c.pct)/maxAbs*100);
+    const rep = c.repeat_count > 1 ? `<span class="leader-badge">x${c.repeat_count}</span>` : '';
+    return `
+      <div class="leader-row">
+        <div class="leader-rank">${i+1}</div>
+        <div class="leader-sym">${c.symbol} ${rep}</div>
+        <div class="leader-bar-track"><div class="leader-bar-fill" style="width:${width}%;background:${color}"></div></div>
+        <div class="leader-pct" style="color:${color}">${fmtPct(c.pct)}</div>
+      </div>`;
+  }).join('');
+}
+
+function renderScatter(perf){
+  const ctx = document.getElementById('scatterChart');
+  const points = perf.map(c => ({x: c.latest_score || c.score, y: c.pct, symbol: c.symbol}));
+  const corr = pearson(points.map(p=>p.x), points.map(p=>p.y));
+  document.getElementById('statCorr').textContent = corr === null ? '—' : corr.toFixed(2);
+
+  new Chart(ctx, {
+    type: 'scatter',
+    data: {
+      datasets: [{
+        data: points,
+        backgroundColor: points.map(p => p.y >= 0 ? GAIN : LOSS),
+        pointRadius: 5, pointHoverRadius: 7,
+      }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (ctx) => `${ctx.raw.symbol}: score ${ctx.raw.x}, ${fmtPct(ctx.raw.y)}` } }
+      },
+      scales: {
+        x: { title: { display: true, text: 'امتیاز ربات', color: DIM }, grid: { color: BORDER } },
+        y: { title: { display: true, text: 'بازده (%)', color: DIM }, grid: { color: BORDER } },
+      }
+    }
+  });
+}
+
+function renderCoinGrid(tracked, history){
+  const grid = document.getElementById('coinGrid');
+  if(!tracked.length){ grid.innerHTML = '<div class="empty-state">هنوز کوینی ثبت نشده</div>'; return; }
+
+  const sorted = [...tracked].sort((a,b) => (b.latest_score||b.score) - (a.latest_score||a.score));
+  grid.innerHTML = sorted.map(c => `
+    <div class="coin-card">
+      <div class="coin-card-top">
+        <div>
+          <div class="coin-sym">${c.symbol}</div>
+          <div class="coin-meta">امتیاز ${c.latest_score || c.score}${c.repeat_count>1 ? ' · x'+c.repeat_count : ''}</div>
+        </div>
+        <div class="coin-pct" id="pct-${cssSafe(c.symbol)}"></div>
+      </div>
+      <div class="coin-spark"><canvas id="spark-${cssSafe(c.symbol)}"></canvas></div>
+    </div>
+  `).join('');
+
+  sorted.forEach(c => {
+    const series = history
+      .map(h => ({t: h.timestamp, p: h.prices[c.symbol]}))
+      .filter(pt => pt.p !== null && pt.p !== undefined);
+    if(series.length < 1) return;
+
+    const pctNow = c.entry_price ? (series[series.length-1].p / c.entry_price - 1) * 100 : 0;
+    const pctEl = document.getElementById('pct-'+cssSafe(c.symbol));
+    if(pctEl){ pctEl.textContent = fmtPct(pctNow); pctEl.style.color = pctNow >= 0 ? GAIN : LOSS; }
+
+    const canvas = document.getElementById('spark-'+cssSafe(c.symbol));
+    if(!canvas || series.length < 2) return;
+    new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: series.map(pt => pt.t),
+        datasets: [{
+          data: series.map(pt => pt.p),
+          borderColor: pctNow >= 0 ? GAIN : LOSS,
+          backgroundColor: (pctNow >= 0 ? GAIN : LOSS) + '1A',
+          borderWidth: 1.5, fill: true, tension: 0.35, pointRadius: 0,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display:false }, tooltip: { enabled:false } },
+        scales: { x: { display:false }, y: { display:false } },
+        elements: { line: { borderJoinStyle: 'round' } },
+      }
+    });
+  });
+}
+
+function cssSafe(s){ return s.replace(/[^a-zA-Z0-9]/g, '_'); }
+
+function timeAgoFa(iso){
+  const diffMs = Date.now() - new Date(iso).getTime();
+  const h = Math.floor(diffMs / 3600000);
+  if(h < 1) return 'چند دقیقه پیش';
+  if(h < 24) return `${h} ساعت پیش`;
+  return `${Math.floor(h/24)} روز پیش`;
+}
+
+(async function init(){
+  const {tracked, history} = await loadData();
+
+  if(!history.length){
+    document.getElementById('lastUpdate').textContent = 'در انتظار اولین اجرا…';
+    document.getElementById('leaderboard').innerHTML = '<div class="empty-state"><div class="display">هنوز داده‌ای نیست</div>ردیاب هنوز اولین اجرایش را نداشته.</div>';
+    document.getElementById('coinGrid').innerHTML = '';
+    renderTicker([]);
+    return;
+  }
+
+  document.getElementById('lastUpdate').textContent = 'آخرین بروزرسانی: ' + timeAgoFa(history[history.length-1].timestamp);
+
+  const perf = computePerf(tracked, history);
+  renderTicker(perf);
+  renderHero(perf);
+  renderPortfolioChart(tracked, history);
+  renderLeaderboard(perf);
+  if(history.length >= 2) renderScatter(perf); else document.getElementById('scatterChart').parentElement.innerHTML = '<div class="empty-state">برای این نمودار حداقل ۲ اجرا لازم است</div>';
+  renderCoinGrid(tracked, history);
+})();
+</script>
+</body>
+</html>
