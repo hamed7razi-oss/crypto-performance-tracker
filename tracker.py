@@ -53,12 +53,18 @@ def save_json(path, data):
 # ۱) خواندن سیگنال‌های تازه از ریپوی اسکرینر
 # ---------------------------------------------------------------------------
 def fetch_new_signals(processed):
-    resp = requests.get(SCREENER_SIGNALS_API, timeout=15)
+    headers = {}
+    gh_token = os.environ.get("GITHUB_TOKEN")
+    if gh_token:
+        headers["Authorization"] = f"Bearer {gh_token}"
+        headers["Accept"] = "application/vnd.github+json"
+
+    resp = requests.get(SCREENER_SIGNALS_API, headers=headers, timeout=15)
     if resp.status_code == 404:
         print("هنوز هیچ سیگنالی در ریپوی اسکرینر ثبت نشده.")
         return []
     if resp.status_code != 200:
-        print(f"خطا در خواندن سیگنال‌ها از گیت‌هاب: {resp.status_code} {resp.text[:200]}")
+        print(f"خطا در خواندن سیگنال‌ها از گیت‌هاب: {resp.status_code} {resp.text[:300]}")
         return []
 
     files = resp.json()
@@ -67,7 +73,7 @@ def fetch_new_signals(processed):
         name = f.get("name")
         if not name or not name.endswith(".json") or name in processed:
             continue
-        raw = requests.get(f["download_url"], timeout=15)
+        raw = requests.get(f["download_url"], headers=headers, timeout=15)
         if raw.status_code == 200:
             try:
                 new_signals.append((name, raw.json()))
