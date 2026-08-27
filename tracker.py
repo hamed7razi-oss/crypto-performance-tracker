@@ -106,16 +106,29 @@ def ingest_signals(tracked, new_signals):
             symbol = item.get("symbol")
             if not symbol:
                 continue
+
             if symbol in by_symbol:
-                by_symbol[symbol]["repeat_count"] = by_symbol[symbol].get("repeat_count", 1) + 1
-                by_symbol[symbol]["latest_score"] = item.get("score")
+                existing = by_symbol[symbol]
+                existing["repeat_count"] = existing.get("repeat_count", 1) + 1
+                existing["latest_score"] = item.get("score")
+                # اگه شناسه دقیق کوین تو سیگنال جدید بود ولی قبلاً نداشتیم (سیگنال‌های قدیمی‌تر)، الان درستش کن
+                if item.get("coin_id") and not existing.get("coin_id_confirmed"):
+                    existing["coin_id"] = item["coin_id"]
+                    existing["coin_id_confirmed"] = True
                 continue
 
-            coin_id = resolve_coin_id(symbol)
-            time.sleep(1.2)
+            # ترجیح اول: شناسه دقیقی که خودِ اسکرینر گزارش کرده (بدون ابهام)
+            # ترجیح دوم (فقط برای سیگنال‌های خیلی قدیمی که این فیلد رو نداشتن): حدس از رو اسم
+            coin_id = item.get("coin_id")
+            confirmed = bool(coin_id)
+            if not coin_id:
+                coin_id = resolve_coin_id(symbol)
+                time.sleep(1.2)
+
             entry = {
                 "symbol": symbol,
                 "coin_id": coin_id,
+                "coin_id_confirmed": confirmed,
                 "score": item.get("score"),
                 "latest_score": item.get("score"),
                 "entry_price": item.get("price") or None,
