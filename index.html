@@ -211,9 +211,11 @@ const fmtPct = (v) => (v >= 0 ? '+' : '') + v.toFixed(2) + '%';
 
 async function loadData(){
   try{
+    // آپدیت اجباری: جلوگیری از کش شدن فایل‌ها توسط مرورگر یا GitHub Pages
+    const bust = '?t=' + Date.now();
     const [tracked, history] = await Promise.all([
-      fetch('data/tracked_coins.json').then(r => r.ok ? r.json() : []),
-      fetch('data/price_history.json').then(r => r.ok ? r.json() : []),
+      fetch('data/tracked_coins.json' + bust, {cache: 'no-store'}).then(r => r.ok ? r.json() : []),
+      fetch('data/price_history.json' + bust, {cache: 'no-store'}).then(r => r.ok ? r.json() : []),
     ]);
     return {tracked, history};
   }catch(e){
