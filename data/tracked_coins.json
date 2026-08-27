@@ -1,0 +1,1742 @@
+[
+  {
+    "symbol": "币安人生",
+    "coin_id": "bianrensheng",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 65,
+    "entry_price": 0.515608,
+    "first_seen_at": "2026-08-27T03:13:50.524233+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "VELVET",
+    "coin_id": "velvet",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.773931,
+    "first_seen_at": "2026-08-27T03:13:51.765489+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ANSEM",
+    "coin_id": "the-black-bull",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 65,
+    "entry_price": 0.280467,
+    "first_seen_at": "2026-08-27T03:13:53.014232+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "QRL",
+    "coin_id": "quantum-resistant-ledger",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 65,
+    "entry_price": 0.922603,
+    "first_seen_at": "2026-08-27T03:13:54.254504+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "PUMP",
+    "coin_id": "pump-fun",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00407938,
+    "first_seen_at": "2026-08-27T03:13:55.504941+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "DOT",
+    "coin_id": "polkadot",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.893452,
+    "first_seen_at": "2026-08-27T03:13:56.775113+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "WLD",
+    "coin_id": "worldcoin-wld",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.397838,
+    "first_seen_at": "2026-08-27T03:13:58.018354+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ALGO",
+    "coin_id": "algorand",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.093998,
+    "first_seen_at": "2026-08-27T03:13:59.283502+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "NEXO",
+    "coin_id": "nexo",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 63,
+    "entry_price": 0.846266,
+    "first_seen_at": "2026-08-27T03:14:00.551751+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "RENDER",
+    "coin_id": "render-token",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.49,
+    "first_seen_at": "2026-08-27T03:14:01.830942+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MORPHO",
+    "coin_id": "morpho",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 2.44,
+    "first_seen_at": "2026-08-27T03:14:03.266893+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "ENA",
+    "coin_id": "ethena",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.148948,
+    "first_seen_at": "2026-08-27T03:14:04.504086+00:00",
+    "repeat_count": 5
+  },
+  {
+    "symbol": "JUP",
+    "coin_id": "jupiter-exchange-solana",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.210141,
+    "first_seen_at": "2026-08-27T03:14:05.901575+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "FLR",
+    "coin_id": "flare-networks",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00742655,
+    "first_seen_at": "2026-08-27T03:14:07.285378+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ETHFI",
+    "coin_id": "ether-fi",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.585182,
+    "first_seen_at": "2026-08-27T03:14:08.652490+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "APT",
+    "coin_id": "aptos",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.638016,
+    "first_seen_at": "2026-08-27T03:14:09.892050+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PENGU",
+    "coin_id": "pudgy-penguins",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.00827144,
+    "first_seen_at": "2026-08-27T03:14:11.163437+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "VIRTUAL",
+    "coin_id": "virtual-protocol",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.719438,
+    "first_seen_at": "2026-08-27T03:14:12.583211+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "TIA",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.390808,
+    "first_seen_at": "2026-08-27T03:14:13.861357+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BSV",
+    "coin_id": "bitcoin-cash-sv",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 18.24,
+    "first_seen_at": "2026-08-27T03:14:15.136574+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "PEPE",
+    "coin_id": "pepe",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 3.85e-06,
+    "first_seen_at": "2026-08-27T03:14:16.411785+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "ETC",
+    "coin_id": "ethereum-classic",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 7.66,
+    "first_seen_at": "2026-08-27T03:14:17.678557+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "LIT",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 3.05,
+    "first_seen_at": "2026-08-27T03:14:18.966807+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "IOTA",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.04330919,
+    "first_seen_at": "2026-08-27T03:14:20.250113+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "THETA",
+    "coin_id": "theta-token",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.188082,
+    "first_seen_at": "2026-08-27T03:14:21.518695+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KMNO",
+    "coin_id": "kamino",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.02565017,
+    "first_seen_at": "2026-08-27T03:14:22.795009+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "A",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.076755,
+    "first_seen_at": "2026-08-27T03:14:24.078622+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GALA",
+    "coin_id": "gala",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00217158,
+    "first_seen_at": "2026-08-27T03:14:25.351747+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ATH",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.00470575,
+    "first_seen_at": "2026-08-27T03:14:26.636854+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "KAITO",
+    "coin_id": "kaito",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.393758,
+    "first_seen_at": "2026-08-27T03:14:27.910807+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SKYAI",
+    "coin_id": "skyai",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.082624,
+    "first_seen_at": "2026-08-27T03:14:29.179062+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SOON",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.213592,
+    "first_seen_at": "2026-08-27T03:14:30.465908+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "WM",
+    "coin_id": "wrappedm-by-m0",
+    "coin_id_confirmed": false,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 0.999806,
+    "first_seen_at": "2026-08-27T03:14:31.740507+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PI",
+    "coin_id": "pi-network",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.103192,
+    "first_seen_at": "2026-08-27T03:14:33.022554+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "POL",
+    "coin_id": "polygon-ecosystem-token",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.099214,
+    "first_seen_at": "2026-08-27T03:14:34.295298+00:00",
+    "repeat_count": 5
+  },
+  {
+    "symbol": "UP",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.428209,
+    "first_seen_at": "2026-08-27T03:14:35.586716+00:00",
+    "repeat_count": 6
+  },
+  {
+    "symbol": "GRASS",
+    "coin_id": "grass",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.349864,
+    "first_seen_at": "2026-08-27T03:14:36.866596+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "SHORT",
+    "coin_id": "bermuda-shorts",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 2.468e-05,
+    "first_seen_at": "2026-08-27T03:14:38.146742+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "RE",
+    "coin_id": "re",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 75,
+    "entry_price": 0.553194,
+    "first_seen_at": "2026-08-27T03:14:39.420452+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "ICP",
+    "coin_id": "internet-computer",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 2.69,
+    "first_seen_at": "2026-08-27T03:14:40.688001+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BGB",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 2.02,
+    "first_seen_at": "2026-08-27T03:14:41.968703+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "APEPE",
+    "coin_id": "ape-and-pepe",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.26e-06,
+    "first_seen_at": "2026-08-27T03:14:43.239442+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MET",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.23343,
+    "first_seen_at": "2026-08-27T03:14:44.526333+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ZAMA",
+    "coin_id": "zama",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.053463,
+    "first_seen_at": "2026-08-27T03:14:45.799968+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CARDS",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.226805,
+    "first_seen_at": "2026-08-27T03:14:47.089213+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ZRX",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.101662,
+    "first_seen_at": "2026-08-27T03:14:48.371274+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PRL",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.330402,
+    "first_seen_at": "2026-08-27T03:14:49.654809+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "STRCX",
+    "coin_id": "strategy-pp-variable-xstock",
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 103.4,
+    "first_seen_at": "2026-08-27T03:14:50.900404+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "USAT",
+    "coin_id": "usa",
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 68,
+    "entry_price": 0.999787,
+    "first_seen_at": "2026-08-27T03:14:52.137453+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ANTFUN",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 83,
+    "entry_price": 0.04233644,
+    "first_seen_at": "2026-08-27T03:14:53.422147+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "UB",
+    "coin_id": "unibase",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.123011,
+    "first_seen_at": "2026-08-27T03:14:54.696563+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "DCR",
+    "coin_id": "decred",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 50,
+    "entry_price": 13.83,
+    "first_seen_at": "2026-08-27T03:14:55.935908+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "BABY",
+    "coin_id": "babylon",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.01281042,
+    "first_seen_at": "2026-08-27T03:14:57.182394+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FRXUSD",
+    "coin_id": "frax-usd",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.999981,
+    "first_seen_at": "2026-08-27T03:14:58.435645+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "DIEM",
+    "coin_id": "diem",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 1734.84,
+    "first_seen_at": "2026-08-27T03:14:59.713118+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "VVV",
+    "coin_id": "venice-token",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 80,
+    "entry_price": 17.4,
+    "first_seen_at": "2026-08-27T03:15:00.978009+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CVX",
+    "coin_id": "convex-finance",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 100,
+    "entry_price": 2.13,
+    "first_seen_at": "2026-08-27T03:15:02.252224+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "AKE",
+    "coin_id": "akedo",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.00870583,
+    "first_seen_at": "2026-08-27T03:15:09.809221+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "FF",
+    "coin_id": "falcon-finance-ff",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 50,
+    "entry_price": 0.077169,
+    "first_seen_at": "2026-08-27T03:15:11.317688+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "STX",
+    "coin_id": "blockstack",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.227733,
+    "first_seen_at": "2026-08-27T03:15:12.581008+00:00",
+    "repeat_count": 6
+  },
+  {
+    "symbol": "NPC",
+    "coin_id": "non-playable-coin",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00898302,
+    "first_seen_at": "2026-08-27T03:15:13.854993+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "WKC",
+    "coin_id": "wiki-cat",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.20594e-07,
+    "first_seen_at": "2026-08-27T03:15:15.219708+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "TUT",
+    "coin_id": "tutorial",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.07699,
+    "first_seen_at": "2026-08-27T03:15:16.462529+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "TUSD",
+    "coin_id": "true-usd",
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 58,
+    "entry_price": 0.998587,
+    "first_seen_at": "2026-08-27T03:15:17.703797+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "TRAC",
+    "coin_id": "origintrail",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.316382,
+    "first_seen_at": "2026-08-27T03:15:18.979825+00:00",
+    "repeat_count": 5
+  },
+  {
+    "symbol": "U",
+    "coin_id": "united-stables",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.999503,
+    "first_seen_at": "2026-08-27T03:15:20.247462+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MON",
+    "coin_id": "monad",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 65,
+    "entry_price": 0.02996231,
+    "first_seen_at": "2026-08-27T03:15:21.484808+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "SOFID",
+    "coin_id": "sofiusd",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.99926,
+    "first_seen_at": "2026-08-27T03:15:22.878222+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "REKT",
+    "coin_id": "rekt-4",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 1.32951e-07,
+    "first_seen_at": "2026-08-27T03:15:24.144426+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "FOLD",
+    "coin_id": "interfold",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.157629,
+    "first_seen_at": "2026-08-27T03:15:25.421782+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PYTH",
+    "coin_id": "pyth-network",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.04950675,
+    "first_seen_at": "2026-08-27T03:15:26.660527+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "XP",
+    "coin_id": "xphere",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 55,
+    "entry_price": 0.0158654,
+    "first_seen_at": "2026-08-27T03:15:27.934219+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "RLB",
+    "coin_id": "rollbit-coin",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 73,
+    "entry_price": 0.079765,
+    "first_seen_at": "2026-08-27T03:15:29.199528+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "CROSS",
+    "coin_id": "across-protocol",
+    "coin_id_confirmed": false,
+    "score": 55,
+    "latest_score": 55,
+    "entry_price": 0.113658,
+    "first_seen_at": "2026-08-27T03:15:30.475952+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ZRO",
+    "coin_id": "layerzero",
+    "coin_id_confirmed": false,
+    "score": 50,
+    "latest_score": 75,
+    "entry_price": 1.14,
+    "first_seen_at": "2026-08-27T03:15:31.752823+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CCD",
+    "coin_id": "concordium",
+    "coin_id_confirmed": false,
+    "score": 50,
+    "latest_score": 50,
+    "entry_price": 0.0039004,
+    "first_seen_at": "2026-08-27T03:15:33.112348+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CYS",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 75,
+    "entry_price": 0.571804,
+    "first_seen_at": "2026-08-27T03:15:34.395459+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "A7A5",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 83,
+    "entry_price": 0.01203802,
+    "first_seen_at": "2026-08-27T03:15:35.682507+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "PENDLE",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.75,
+    "first_seen_at": "2026-08-27T03:15:36.969129+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "UAI",
+    "coin_id": "unifai-network",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.270701,
+    "first_seen_at": "2026-08-27T03:15:38.240071+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ACRED",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1109.14,
+    "first_seen_at": "2026-08-27T03:15:39.522415+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "USDSUI",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1.002,
+    "first_seen_at": "2026-08-27T03:15:40.804740+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "NILA",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.07829,
+    "first_seen_at": "2026-08-27T03:15:42.087857+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "OZA",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.055376,
+    "first_seen_at": "2026-08-27T03:15:43.363818+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SPX",
+    "coin_id": "spx6900",
+    "coin_id_confirmed": false,
+    "score": 55,
+    "latest_score": 75,
+    "entry_price": 0.465488,
+    "first_seen_at": "2026-08-27T03:15:44.610101+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "XPL",
+    "coin_id": "plasma",
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.10801,
+    "first_seen_at": "2026-08-27T03:15:45.880074+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SPK",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 0.0204189,
+    "first_seen_at": "2026-08-27T03:15:47.155849+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KNTQ",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 75,
+    "entry_price": 0.183846,
+    "first_seen_at": "2026-08-27T03:15:48.450106+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "RAY",
+    "coin_id": "raydium",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.779697,
+    "first_seen_at": "2026-08-27T03:15:49.724299+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "IMX",
+    "coin_id": "immutable-x",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.129136,
+    "first_seen_at": "2026-08-27T03:15:50.992468+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "EGLD",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 3.49,
+    "first_seen_at": "2026-08-27T03:15:52.270535+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SN64",
+    "coin_id": "chutes",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 18.2,
+    "first_seen_at": "2026-08-27T03:15:53.508854+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SUPER",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 65,
+    "entry_price": 0.108324,
+    "first_seen_at": "2026-08-27T03:15:54.821451+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "LDO",
+    "coin_id": "lido-dao",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.409789,
+    "first_seen_at": "2026-08-27T03:15:56.093012+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "XYO",
+    "coin_id": "xyo-network",
+    "coin_id_confirmed": false,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.00350613,
+    "first_seen_at": "2026-08-27T03:15:57.332838+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SMILEK",
+    "coin_id": "eye-earn",
+    "coin_id_confirmed": false,
+    "score": 80,
+    "latest_score": 75,
+    "entry_price": 5e-05,
+    "first_seen_at": "2026-08-27T03:15:58.575913+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "INJ",
+    "coin_id": "injective-protocol",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 5.28,
+    "first_seen_at": "2026-08-27T03:15:59.843892+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "APE",
+    "coin_id": "apecoin",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.149767,
+    "first_seen_at": "2026-08-27T03:16:01.082778+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "EDGE",
+    "coin_id": "edgex",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.382451,
+    "first_seen_at": "2026-08-27T03:16:02.321657+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ARRR",
+    "coin_id": "pirate-chain",
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.227842,
+    "first_seen_at": "2026-08-27T03:16:03.684507+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GRT",
+    "coin_id": "the-graph",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.01720906,
+    "first_seen_at": "2026-08-27T03:16:04.950914+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "DRV",
+    "coin_id": "derive",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.131154,
+    "first_seen_at": "2026-08-27T03:16:06.225248+00:00",
+    "repeat_count": 5
+  },
+  {
+    "symbol": "DOG",
+    "coin_id": "dog-go-to-the-moon-rune",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00094406,
+    "first_seen_at": "2026-08-27T03:16:07.491713+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CASHCAT",
+    "coin_id": "cash-cat",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 75,
+    "entry_price": 0.145842,
+    "first_seen_at": "2026-08-27T03:16:08.732165+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "PURR",
+    "coin_id": "purr-2",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.135082,
+    "first_seen_at": "2026-08-27T03:16:10.129061+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ANVL",
+    "coin_id": "anvil",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.0009046,
+    "first_seen_at": "2026-08-27T03:16:11.499225+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CHIP",
+    "coin_id": "chip-2",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.03257533,
+    "first_seen_at": "2026-08-27T03:16:12.736748+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "XAUM",
+    "coin_id": "matrixdock-gold",
+    "coin_id_confirmed": false,
+    "score": 63,
+    "latest_score": 63,
+    "entry_price": 4607.37,
+    "first_seen_at": "2026-08-27T03:16:14.099931+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KOGE",
+    "coin_id": "bnb48-club-token",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 75,
+    "entry_price": 54.34,
+    "first_seen_at": "2026-08-27T03:16:15.476301+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "YZY",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.294093,
+    "first_seen_at": "2026-08-27T03:16:16.763731+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "AERO",
+    "coin_id": "aerodrome-finance",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.492733,
+    "first_seen_at": "2026-08-27T03:16:18.033378+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "PROM",
+    "coin_id": "prometeus",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 3.75,
+    "first_seen_at": "2026-08-27T03:16:19.308040+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "MNT",
+    "coin_id": "mantle",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.519837,
+    "first_seen_at": "2026-08-27T03:16:20.572651+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KAU",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 68,
+    "entry_price": 149.42,
+    "first_seen_at": "2026-08-27T03:16:21.851098+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "USDKG",
+    "coin_id": "usdkg",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.999753,
+    "first_seen_at": "2026-08-27T03:16:23.123771+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ZANO",
+    "coin_id": "zano",
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 8.61,
+    "first_seen_at": "2026-08-27T03:16:24.396535+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "VSN",
+    "coin_id": "vision-3",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.03879211,
+    "first_seen_at": "2026-08-27T03:16:25.663688+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "STAU",
+    "coin_id": "stau",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00830132,
+    "first_seen_at": "2026-08-27T03:16:26.934662+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "KAG",
+    "coin_id": "kinesis-silver",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 60.34,
+    "first_seen_at": "2026-08-27T03:16:28.202498+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "GOMINING",
+    "coin_id": "gmt-token",
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 0.33858,
+    "first_seen_at": "2026-08-27T03:16:29.476676+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "APYUSD",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 1.36,
+    "first_seen_at": "2026-08-27T03:16:30.766914+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "AKT",
+    "coin_id": "akash-network",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.582014,
+    "first_seen_at": "2026-08-27T03:16:32.040699+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GEKKO",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 8.78747e-07,
+    "first_seen_at": "2026-08-27T03:16:33.321648+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "AMP",
+    "coin_id": "amp-token",
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 0.00049993,
+    "first_seen_at": "2026-08-27T03:16:34.601640+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CSPR",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 90,
+    "entry_price": 0.0026792,
+    "first_seen_at": "2026-08-27T03:16:35.880819+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "HASH",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.00844077,
+    "first_seen_at": "2026-08-27T03:16:37.169007+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "OUSG",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 63,
+    "latest_score": 53,
+    "entry_price": 116.33,
+    "first_seen_at": "2026-08-27T03:16:38.453717+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "JASMY",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.00472341,
+    "first_seen_at": "2026-08-27T03:16:39.805799+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "REUSD",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1.097,
+    "first_seen_at": "2026-08-27T03:16:41.087811+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SHFL",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 90,
+    "entry_price": 0.290572,
+    "first_seen_at": "2026-08-27T03:16:42.374932+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "POPCAT",
+    "coin_id": "popcat",
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.062966,
+    "first_seen_at": "2026-08-27T03:16:43.647152+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "META",
+    "coin_id": "meta-2-2",
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 6.72,
+    "first_seen_at": "2026-08-27T03:16:44.919805+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "OMI",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 80,
+    "latest_score": 75,
+    "entry_price": 0.00022644,
+    "first_seen_at": "2026-08-27T03:16:46.199842+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "BTW",
+    "coin_id": "bitway",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.459464,
+    "first_seen_at": "2026-08-27T03:16:47.469453+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.087211,
+    "first_seen_at": "2026-08-27T03:16:48.738505+00:00",
+    "repeat_count": 4
+  },
+  {
+    "symbol": "UTYA",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.04633816,
+    "first_seen_at": "2026-08-27T03:16:50.027964+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ARC",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.072468,
+    "first_seen_at": "2026-08-27T03:16:51.316828+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BR",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 65,
+    "entry_price": 0.259771,
+    "first_seen_at": "2026-08-27T03:16:52.601522+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ONG",
+    "coin_id": "ong",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.09789,
+    "first_seen_at": "2026-08-27T03:16:53.869479+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ZBCN",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00195891,
+    "first_seen_at": "2026-08-27T03:16:55.152117+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "HOLO",
+    "coin_id": "holoworld",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.075344,
+    "first_seen_at": "2026-08-27T03:16:56.397314+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PEAQ",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.02169929,
+    "first_seen_at": "2026-08-27T03:16:57.677077+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "TWT",
+    "coin_id": "trust-wallet-token",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.457265,
+    "first_seen_at": "2026-08-27T03:16:58.922953+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SPCXB",
+    "coin_id": "spacex-bstocks-tokenized-stock",
+    "coin_id_confirmed": false,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 138.14,
+    "first_seen_at": "2026-08-27T03:17:00.162804+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PMUSD",
+    "coin_id": "precious-metals-usd",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.561254,
+    "first_seen_at": "2026-08-27T03:17:01.400302+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "DOS",
+    "coin_id": "dappos",
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.241859,
+    "first_seen_at": "2026-08-27T03:17:02.644378+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "MX",
+    "coin_id": "mx-token",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1.7,
+    "first_seen_at": "2026-08-27T03:17:04.031268+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "STAC",
+    "coin_id": "securitize-tokenized-aaa-clo-fund",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1029.4,
+    "first_seen_at": "2026-08-27T03:17:05.398077+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "QUBIC",
+    "coin_id": "qubic-network",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 4.24888e-07,
+    "first_seen_at": "2026-08-27T03:17:06.852618+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FUN",
+    "coin_id": "funfair",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.00519374,
+    "first_seen_at": "2026-08-27T03:17:08.122188+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "FRAX",
+    "coin_id": "frax",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.992215,
+    "first_seen_at": "2026-08-27T03:17:09.491942+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GCOIN",
+    "coin_id": "playnance",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.00223444,
+    "first_seen_at": "2026-08-27T03:17:10.871089+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "APR",
+    "coin_id": "apriori",
+    "coin_id_confirmed": false,
+    "score": 50,
+    "latest_score": 50,
+    "entry_price": 0.229211,
+    "first_seen_at": "2026-08-27T03:17:12.134517+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FLUID",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 65,
+    "entry_price": 1.57,
+    "first_seen_at": "2026-08-27T03:17:13.420574+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "BCE",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 83,
+    "latest_score": 65,
+    "entry_price": 0.121553,
+    "first_seen_at": "2026-08-27T03:17:14.708412+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "EXOD",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 80,
+    "latest_score": 80,
+    "entry_price": 9.54,
+    "first_seen_at": "2026-08-27T03:17:15.992084+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FARTCOIN",
+    "coin_id": "fartcoin",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.207474,
+    "first_seen_at": "2026-08-27T03:17:17.231391+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CX",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 90,
+    "entry_price": 0.03423184,
+    "first_seen_at": "2026-08-27T03:17:18.511729+00:00",
+    "repeat_count": 3
+  },
+  {
+    "symbol": "ACU",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.128464,
+    "first_seen_at": "2026-08-27T03:17:19.791498+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "MAGMA",
+    "coin_id": "magma-finance",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 65,
+    "entry_price": 0.23891,
+    "first_seen_at": "2026-08-27T03:17:21.060528+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "CAP",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.071307,
+    "first_seen_at": "2026-08-27T03:17:22.342426+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "USDD",
+    "coin_id": "usdd",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.999708,
+    "first_seen_at": "2026-08-27T03:17:23.628192+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "OZO",
+    "coin_id": "ozone-chain",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.131078,
+    "first_seen_at": "2026-08-27T03:17:24.900448+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ONE",
+    "coin_id": "cross-2",
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.116649,
+    "first_seen_at": "2026-08-27T03:17:26.178673+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "NCT",
+    "coin_id": "polyswarm",
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.027366,
+    "first_seen_at": "2026-08-27T03:17:27.415120+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SAFO",
+    "coin_id": "safo",
+    "coin_id_confirmed": false,
+    "score": 63,
+    "latest_score": 63,
+    "entry_price": 1.019,
+    "first_seen_at": "2026-08-27T03:17:28.681964+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PLUME",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.01405744,
+    "first_seen_at": "2026-08-27T03:17:29.961798+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "REQ",
+    "coin_id": "request-network",
+    "coin_id_confirmed": false,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 0.057355,
+    "first_seen_at": "2026-08-27T03:17:31.233880+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MEDXT",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00226594,
+    "first_seen_at": "2026-08-27T03:17:32.522832+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "牛来",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.04665938,
+    "first_seen_at": "2026-08-27T03:17:33.806568+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KITE",
+    "coin_id": "kite-2",
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.12374,
+    "first_seen_at": "2026-08-27T03:17:35.079418+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "S",
+    "coin_id": "tether",
+    "coin_id_confirmed": false,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.03332222,
+    "first_seen_at": "2026-08-27T03:17:36.323949+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "AIOZ",
+    "coin_id": "aioz-network",
+    "coin_id_confirmed": false,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 0.058707,
+    "first_seen_at": "2026-08-27T03:17:37.593832+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "TIBBIR",
+    "coin_id": null,
+    "coin_id_confirmed": false,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.255694,
+    "first_seen_at": "2026-08-27T03:17:38.882719+00:00",
+    "repeat_count": 1
+  }
+]
