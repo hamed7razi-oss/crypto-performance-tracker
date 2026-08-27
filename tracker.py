@@ -146,16 +146,32 @@ def ingest_signals(tracked, new_signals):
 # ۴) گرفتن قیمت فعلی همه کوین‌های پیگیری‌شده در یک درخواست
 # ---------------------------------------------------------------------------
 def fetch_prices(tracked):
+    """
+    قیمت‌ها رو دسته‌دسته می‌گیره (نه همه با هم)، چون وقتی تعداد کوین‌های
+    پیگیری‌شده زیاد بشه (مثلاً بالای ۱۰۰ تا)، یک درخواست با همه شناسه‌ها
+    ممکنه به‌خاطر طولانی بودن آدرس رد بشه.
+    """
     ids = sorted(set([c["coin_id"] for c in tracked if c.get("coin_id")] + ["bitcoin"]))
     if not ids:
         return {}
-    resp = requests.get(
-        f"{COINGECKO_BASE}/simple/price",
-        params={"ids": ",".join(ids), "vs_currencies": "usd"},
-        timeout=20,
-    )
-    resp.raise_for_status()
-    return resp.json()
+
+    all_prices = {}
+    batch_size = 100
+    for i in range(0, len(ids), batch_size):
+        batch = ids[i:i + batch_size]
+        resp = requests.get(
+            f"{COINGECKO_BASE}/simple/price",
+            params={"ids": ",".join(batch), "vs_currencies": "usd"},
+            timeout=25,
+        )
+        if resp.status_code != 200:
+            print(f"خطا در گرفتن قیمت دسته {i//batch_size + 1}: {resp.status_code} {resp.text[:200]}")
+            time.sleep(2)
+            continue
+        all_prices.update(resp.json())
+        time.sleep(1.5)
+
+    return all_prices
 
 
 # ---------------------------------------------------------------------------
