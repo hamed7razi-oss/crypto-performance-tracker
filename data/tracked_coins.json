@@ -22,12 +22,12 @@
   {
     "symbol": "ANSEM",
     "coin_id": "the-black-bull",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 90,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.280467,
     "first_seen_at": "2026-08-27T03:13:53.014232+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "QRL",
@@ -362,12 +362,12 @@
   {
     "symbol": "GRASS",
     "coin_id": "grass",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 90,
-    "latest_score": 90,
+    "latest_score": 75,
     "entry_price": 0.349864,
     "first_seen_at": "2026-08-27T03:14:36.866596+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "SHORT",
@@ -562,12 +562,12 @@
   {
     "symbol": "CVX",
     "coin_id": "convex-finance",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 100,
+    "latest_score": 65,
     "entry_price": 2.13,
     "first_seen_at": "2026-08-27T03:15:02.252224+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "AKE",
@@ -1342,12 +1342,12 @@
   {
     "symbol": "PONS",
     "coin_id": "pons",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
     "latest_score": 75,
     "entry_price": 0.087211,
     "first_seen_at": "2026-08-27T03:16:48.738505+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "UTYA",
@@ -1737,6 +1737,66 @@
     "latest_score": 75,
     "entry_price": 0.255694,
     "first_seen_at": "2026-08-27T03:17:38.882719+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "RUNE",
+    "coin_id": "thorchain",
+    "coin_id_confirmed": true,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 0.570427,
+    "first_seen_at": "2026-08-27T15:08:16.217655+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "XPIN",
+    "coin_id": "xpin-network",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.00131215,
+    "first_seen_at": "2026-08-27T15:08:16.217685+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MOOLAH",
+    "coin_id": "moolah",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.04561923,
+    "first_seen_at": "2026-08-27T15:08:16.217689+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "USDF",
+    "coin_id": "astherus-usdf",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.998659,
+    "first_seen_at": "2026-08-27T15:08:16.217692+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SAFE",
+    "coin_id": "safecoin",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.146758,
+    "first_seen_at": "2026-08-27T15:08:16.217698+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "WEMIX",
+    "coin_id": "wemix-token",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.200106,
+    "first_seen_at": "2026-08-27T15:08:16.217701+00:00",
     "repeat_count": 1
   }
 ]
