@@ -10,7 +10,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-date-fns/3.0.0/chartjs-adapter-date-fns.bundle.min.js"></script>
 <style>
   :root{
     --bg: #0A0E17;
@@ -270,9 +269,18 @@ function pearson(xs, ys){
   return denom ? num/denom : null;
 }
 
+function formatDateLabel(iso){
+  const d = new Date(iso);
+  const mm = String(d.getMonth()+1).padStart(2,'0');
+  const dd = String(d.getDate()).padStart(2,'0');
+  const hh = String(d.getHours()).padStart(2,'0');
+  const mi = String(d.getMinutes()).padStart(2,'0');
+  return `${mm}-${dd} ${hh}:${mi}`;
+}
+
 function renderPortfolioChart(tracked, history){
   const ctx = document.getElementById('portfolioChart');
-  const labels = history.map(h => new Date(h.timestamp));
+  const labels = history.map(h => formatDateLabel(h.timestamp));
   const values = history.map(h => {
     return tracked.reduce((sum, c) => {
       const p = h.prices[c.symbol];
@@ -303,7 +311,7 @@ function renderPortfolioChart(tracked, history){
       responsive: true, maintainAspectRatio: false,
       plugins: { legend: { display: false } },
       scales: {
-        x: { type: 'time', time: { unit: 'day' }, grid: { color: BORDER }, ticks: { maxRotation: 0 } },
+        x: { grid: { color: BORDER }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 6 } },
         y: { grid: { color: BORDER }, ticks: { callback: (v) => '$'+v } },
       }
     }
@@ -433,12 +441,19 @@ function timeAgoFa(iso){
   document.getElementById('lastUpdate').textContent = 'آخرین بروزرسانی: ' + timeAgoFa(history[history.length-1].timestamp);
 
   const perf = computePerf(tracked, history);
-  renderTicker(perf);
-  renderHero(perf);
-  renderPortfolioChart(tracked, history);
-  renderLeaderboard(perf);
-  if(history.length >= 2) renderScatter(perf); else document.getElementById('scatterChart').parentElement.innerHTML = '<div class="empty-state">برای این نمودار حداقل ۲ اجرا لازم است</div>';
-  renderCoinGrid(tracked, history);
+  const safeRun = (label, fn) => {
+    try { fn(); } catch(e) { console.error(label, e); }
+  };
+
+  safeRun('ticker', () => renderTicker(perf));
+  safeRun('hero', () => renderHero(perf));
+  safeRun('portfolioChart', () => renderPortfolioChart(tracked, history));
+  safeRun('leaderboard', () => renderLeaderboard(perf));
+  safeRun('scatter', () => {
+    if (history.length >= 2) renderScatter(perf);
+    else document.getElementById('scatterChart').parentElement.innerHTML = '<div class="empty-state">برای این نمودار حداقل ۲ اجرا لازم است</div>';
+  });
+  safeRun('coinGrid', () => renderCoinGrid(tracked, history));
 })();
 </script>
 </body>
