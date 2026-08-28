@@ -27,7 +27,7 @@
     "latest_score": 75,
     "entry_price": 0.280467,
     "first_seen_at": "2026-08-27T03:13:53.014232+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "QRL",
@@ -112,12 +112,12 @@
   {
     "symbol": "ENA",
     "coin_id": "ethena",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.148948,
     "first_seen_at": "2026-08-27T03:14:04.504086+00:00",
-    "repeat_count": 5
+    "repeat_count": 6
   },
   {
     "symbol": "JUP",
@@ -162,12 +162,12 @@
   {
     "symbol": "PENGU",
     "coin_id": "pudgy-penguins",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 65,
+    "latest_score": 55,
     "entry_price": 0.00827144,
     "first_seen_at": "2026-08-27T03:14:11.163437+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "VIRTUAL",
@@ -472,12 +472,12 @@
   {
     "symbol": "STRCX",
     "coin_id": "strategy-pp-variable-xstock",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 58,
     "entry_price": 103.4,
     "first_seen_at": "2026-08-27T03:14:50.900404+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "USAT",
@@ -502,12 +502,12 @@
   {
     "symbol": "UB",
     "coin_id": "unibase",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.123011,
     "first_seen_at": "2026-08-27T03:14:54.696563+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "DCR",
@@ -1122,12 +1122,12 @@
   {
     "symbol": "MNT",
     "coin_id": "mantle",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 58,
     "latest_score": 58,
     "entry_price": 0.519837,
     "first_seen_at": "2026-08-27T03:16:20.572651+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "KAU",
@@ -1411,13 +1411,13 @@
   },
   {
     "symbol": "PEAQ",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "peaq-2",
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 58,
     "entry_price": 0.02169929,
     "first_seen_at": "2026-08-27T03:16:57.677077+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "TWT",
@@ -1897,6 +1897,36 @@
     "latest_score": 83,
     "entry_price": 0.060559,
     "first_seen_at": "2026-08-28T00:50:29.254474+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SKR",
+    "coin_id": "seeker",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.01063535,
+    "first_seen_at": "2026-08-28T14:17:21.306342+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GWEI",
+    "coin_id": "ethgas-2",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.02720015,
+    "first_seen_at": "2026-08-28T14:17:21.306368+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FT",
+    "coin_id": "flying-tulip",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.106856,
+    "first_seen_at": "2026-08-28T14:17:21.306378+00:00",
     "repeat_count": 1
   }
 ]
