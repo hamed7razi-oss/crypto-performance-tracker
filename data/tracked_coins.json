@@ -1798,5 +1798,105 @@
     "entry_price": 0.200106,
     "first_seen_at": "2026-08-27T15:08:16.217701+00:00",
     "repeat_count": 1
+  },
+  {
+    "symbol": "BORG",
+    "coin_id": "swissborg",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.18572,
+    "first_seen_at": "2026-08-28T00:50:29.254398+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CRCLON",
+    "coin_id": "circle-internet-group-ondo-tokenized-stock",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 93.67,
+    "first_seen_at": "2026-08-28T00:50:29.254435+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MELANIA",
+    "coin_id": "melania-meme",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.114044,
+    "first_seen_at": "2026-08-28T00:50:29.254440+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 93.66,
+    "first_seen_at": "2026-08-28T00:50:29.254445+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 93.75,
+    "first_seen_at": "2026-08-28T00:50:29.254449+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "USELESS",
+    "coin_id": "useless-3",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.069551,
+    "first_seen_at": "2026-08-28T00:50:29.254453+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "UNT",
+    "coin_id": "unitywallet-token",
+    "coin_id_confirmed": true,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.086367,
+    "first_seen_at": "2026-08-28T00:50:29.254457+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BSPX",
+    "coin_id": "bending-spoons-xstock",
+    "coin_id_confirmed": true,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 44.5,
+    "first_seen_at": "2026-08-28T00:50:29.254465+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MSTRX",
+    "coin_id": "microstrategy-xstock",
+    "coin_id_confirmed": true,
+    "score": 85,
+    "latest_score": 85,
+    "entry_price": 135.89,
+    "first_seen_at": "2026-08-28T00:50:29.254470+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MHORSE",
+    "coin_id": "meme-horse",
+    "coin_id_confirmed": true,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 0.060559,
+    "first_seen_at": "2026-08-28T00:50:29.254474+00:00",
+    "repeat_count": 1
   }
 ]
