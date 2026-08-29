@@ -1112,12 +1112,12 @@
   {
     "symbol": "PROM",
     "coin_id": "prometeus",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 85,
     "entry_price": 3.75,
     "first_seen_at": "2026-08-27T03:16:19.308040+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "MNT",
@@ -1422,12 +1422,12 @@
   {
     "symbol": "TWT",
     "coin_id": "trust-wallet-token",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 100,
     "entry_price": 0.457265,
     "first_seen_at": "2026-08-27T03:16:58.922953+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "SPCXB",
@@ -1702,12 +1702,12 @@
   {
     "symbol": "KITE",
     "coin_id": "kite-2",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 100,
+    "latest_score": 80,
     "entry_price": 0.12374,
     "first_seen_at": "2026-08-27T03:17:35.079418+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "S",
@@ -1957,7 +1957,7 @@
     "latest_score": 75,
     "entry_price": 0.061607,
     "first_seen_at": "2026-08-29T00:31:42.792092+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "KAVA",
@@ -1994,10 +1994,10 @@
     "coin_id": "olympus",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 75,
     "entry_price": 18.38,
     "first_seen_at": "2026-08-29T08:57:33.453440+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "ZETA",
@@ -2037,6 +2037,56 @@
     "latest_score": 65,
     "entry_price": 0.051962,
     "first_seen_at": "2026-08-29T15:00:47.457909+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 41.85,
+    "first_seen_at": "2026-08-29T19:22:34.119832+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FORM",
+    "coin_id": "four",
+    "coin_id_confirmed": true,
+    "score": 90,
+    "latest_score": 90,
+    "entry_price": 0.254906,
+    "first_seen_at": "2026-08-29T19:22:34.119858+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "TRUSD",
+    "coin_id": "tori-trusd",
+    "coin_id_confirmed": true,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 1.0,
+    "first_seen_at": "2026-08-29T19:22:34.119862+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "GMX",
+    "coin_id": "gmx",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 8.08,
+    "first_seen_at": "2026-08-29T19:22:34.119870+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PROS",
+    "coin_id": "pharos-network",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.425025,
+    "first_seen_at": "2026-08-29T19:22:34.119873+00:00",
     "repeat_count": 1
   }
 ]
