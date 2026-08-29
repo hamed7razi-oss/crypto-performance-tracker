@@ -392,12 +392,12 @@
   {
     "symbol": "ICP",
     "coin_id": "internet-computer",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 73,
     "entry_price": 2.69,
     "first_seen_at": "2026-08-27T03:14:40.688001+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "BGB",
@@ -972,12 +972,12 @@
   {
     "symbol": "APE",
     "coin_id": "apecoin",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 58,
     "entry_price": 0.149767,
     "first_seen_at": "2026-08-27T03:16:01.082778+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "EDGE",
@@ -1117,7 +1117,7 @@
     "latest_score": 85,
     "entry_price": 3.75,
     "first_seen_at": "2026-08-27T03:16:19.308040+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "MNT",
@@ -1427,7 +1427,7 @@
     "latest_score": 100,
     "entry_price": 0.457265,
     "first_seen_at": "2026-08-27T03:16:58.922953+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "SPCXB",
@@ -1707,7 +1707,7 @@
     "latest_score": 80,
     "entry_price": 0.12374,
     "first_seen_at": "2026-08-27T03:17:35.079418+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "S",
@@ -1957,7 +1957,7 @@
     "latest_score": 75,
     "entry_price": 0.061607,
     "first_seen_at": "2026-08-29T00:31:42.792092+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "KAVA",
@@ -1997,7 +1997,7 @@
     "latest_score": 75,
     "entry_price": 18.38,
     "first_seen_at": "2026-08-29T08:57:33.453440+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "ZETA",
@@ -2047,7 +2047,7 @@
     "latest_score": 100,
     "entry_price": 41.85,
     "first_seen_at": "2026-08-29T19:22:34.119832+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "FORM",
@@ -2087,6 +2087,26 @@
     "latest_score": 73,
     "entry_price": 0.425025,
     "first_seen_at": "2026-08-29T19:22:34.119873+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "PIEVERSE",
+    "coin_id": "pieverse",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 1.13,
+    "first_seen_at": "2026-08-29T22:37:05.855288+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ATOM",
+    "coin_id": "cosmos",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1.5,
+    "first_seen_at": "2026-08-29T22:37:05.855316+00:00",
     "repeat_count": 1
   }
 ]
