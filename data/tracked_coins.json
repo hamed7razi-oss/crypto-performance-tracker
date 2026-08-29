@@ -311,13 +311,13 @@
   },
   {
     "symbol": "SOON",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "soon-2",
+    "coin_id_confirmed": true,
     "score": 90,
-    "latest_score": 90,
+    "latest_score": 73,
     "entry_price": 0.213592,
     "first_seen_at": "2026-08-27T03:14:30.465908+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "WM",
@@ -504,10 +504,10 @@
     "coin_id": "unibase",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.123011,
     "first_seen_at": "2026-08-27T03:14:54.696563+00:00",
-    "repeat_count": 6
+    "repeat_count": 7
   },
   {
     "symbol": "DCR",
@@ -1221,13 +1221,13 @@
   },
   {
     "symbol": "GEKKO",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "gekko",
+    "coin_id_confirmed": true,
     "score": 75,
     "latest_score": 75,
     "entry_price": 8.78747e-07,
     "first_seen_at": "2026-08-27T03:16:33.321648+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "AMP",
@@ -1344,10 +1344,10 @@
     "coin_id": "pons",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 90,
     "entry_price": 0.087211,
     "first_seen_at": "2026-08-27T03:16:48.738505+00:00",
-    "repeat_count": 5
+    "repeat_count": 6
   },
   {
     "symbol": "UTYA",
@@ -1691,13 +1691,13 @@
   },
   {
     "symbol": "牛来",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "niu-lai",
+    "coin_id_confirmed": true,
     "score": 65,
     "latest_score": 65,
     "entry_price": 0.04665938,
     "first_seen_at": "2026-08-27T03:17:33.806568+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "KITE",
@@ -1977,17 +1977,17 @@
     "latest_score": 75,
     "entry_price": 0.01834911,
     "first_seen_at": "2026-08-29T00:31:42.792103+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "HNT",
     "coin_id": "helium",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 100,
+    "latest_score": 75,
     "entry_price": 0.24827,
     "first_seen_at": "2026-08-29T08:57:33.453411+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "OHM",
@@ -2004,10 +2004,10 @@
     "coin_id": "zetachain",
     "coin_id_confirmed": true,
     "score": 68,
-    "latest_score": 68,
+    "latest_score": 73,
     "entry_price": 0.03379091,
     "first_seen_at": "2026-08-29T08:57:33.453444+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "FILQ-A",
@@ -2017,6 +2017,26 @@
     "latest_score": 63,
     "entry_price": 101.07,
     "first_seen_at": "2026-08-29T08:57:33.453450+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "O",
+    "coin_id": "o1-exchange",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.527408,
+    "first_seen_at": "2026-08-29T15:00:47.457875+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MARSCOIN",
+    "coin_id": "marscoin-4",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.051962,
+    "first_seen_at": "2026-08-29T15:00:47.457909+00:00",
     "repeat_count": 1
   }
 ]
