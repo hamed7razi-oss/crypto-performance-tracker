@@ -504,10 +504,10 @@
     "coin_id": "unibase",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.123011,
     "first_seen_at": "2026-08-27T03:14:54.696563+00:00",
-    "repeat_count": 5
+    "repeat_count": 6
   },
   {
     "symbol": "DCR",
@@ -1332,12 +1332,12 @@
   {
     "symbol": "BTW",
     "coin_id": "bitway",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 58,
     "entry_price": 0.459464,
     "first_seen_at": "2026-08-27T03:16:47.469453+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "PONS",
@@ -1452,12 +1452,12 @@
   {
     "symbol": "DOS",
     "coin_id": "dappos",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 65,
     "latest_score": 65,
     "entry_price": 0.241859,
     "first_seen_at": "2026-08-27T03:17:02.644378+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "MX",
@@ -1541,13 +1541,13 @@
   },
   {
     "symbol": "BCE",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "bitcastle-token",
+    "coin_id_confirmed": true,
     "score": 83,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.121553,
     "first_seen_at": "2026-08-27T03:17:14.708412+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "EXOD",
@@ -1592,12 +1592,12 @@
   {
     "symbol": "MAGMA",
     "coin_id": "magma-finance",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.23891,
     "first_seen_at": "2026-08-27T03:17:21.060528+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "CAP",
@@ -1927,6 +1927,56 @@
     "latest_score": 58,
     "entry_price": 0.106856,
     "first_seen_at": "2026-08-28T14:17:21.306378+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "DEXE",
+    "coin_id": "dexe",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 2.22,
+    "first_seen_at": "2026-08-29T00:31:42.792058+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "LAB",
+    "coin_id": "lab",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.079822,
+    "first_seen_at": "2026-08-29T00:31:42.792088+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "龙虾",
+    "coin_id": "lobster-2",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.061607,
+    "first_seen_at": "2026-08-29T00:31:42.792092+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "KAVA",
+    "coin_id": "kava",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.04723021,
+    "first_seen_at": "2026-08-29T00:31:42.792096+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "US",
+    "coin_id": "talus",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.01834911,
+    "first_seen_at": "2026-08-29T00:31:42.792103+00:00",
     "repeat_count": 1
   }
 ]
