@@ -512,12 +512,12 @@
   {
     "symbol": "DCR",
     "coin_id": "decred",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 50,
+    "latest_score": 58,
     "entry_price": 13.83,
     "first_seen_at": "2026-08-27T03:14:55.935908+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "BABY",
@@ -572,12 +572,12 @@
   {
     "symbol": "AKE",
     "coin_id": "akedo",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 90,
     "entry_price": 0.00870583,
     "first_seen_at": "2026-08-27T03:15:09.809221+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "FF",
@@ -632,12 +632,12 @@
   {
     "symbol": "TUSD",
     "coin_id": "true-usd",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 73,
     "latest_score": 58,
     "entry_price": 0.998587,
     "first_seen_at": "2026-08-27T03:15:17.703797+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "TRAC",
@@ -1454,10 +1454,10 @@
     "coin_id": "dappos",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.241859,
     "first_seen_at": "2026-08-27T03:17:02.644378+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "MX",
@@ -1597,7 +1597,7 @@
     "latest_score": 75,
     "entry_price": 0.23891,
     "first_seen_at": "2026-08-27T03:17:21.060528+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "CAP",
@@ -1974,9 +1974,49 @@
     "coin_id": "talus",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.01834911,
     "first_seen_at": "2026-08-29T00:31:42.792103+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "HNT",
+    "coin_id": "helium",
+    "coin_id_confirmed": true,
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.24827,
+    "first_seen_at": "2026-08-29T08:57:33.453411+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 18.38,
+    "first_seen_at": "2026-08-29T08:57:33.453440+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ZETA",
+    "coin_id": "zetachain",
+    "coin_id_confirmed": true,
+    "score": 68,
+    "latest_score": 68,
+    "entry_price": 0.03379091,
+    "first_seen_at": "2026-08-29T08:57:33.453444+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "FILQ-A",
+    "coin_id": "fidelity-usd-digital-liquidity-fund-acc",
+    "coin_id_confirmed": true,
+    "score": 63,
+    "latest_score": 63,
+    "entry_price": 101.07,
+    "first_seen_at": "2026-08-29T08:57:33.453450+00:00",
     "repeat_count": 1
   }
 ]
