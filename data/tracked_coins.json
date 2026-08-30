@@ -444,10 +444,10 @@
     "coin_id": "collector-crypt",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.226805,
     "first_seen_at": "2026-08-27T03:14:47.089213+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "ZRX",
@@ -761,13 +761,13 @@
   },
   {
     "symbol": "CYS",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "cysic",
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.571804,
     "first_seen_at": "2026-08-27T03:15:34.395459+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "A7A5",
@@ -904,10 +904,10 @@
     "coin_id": "elrond-erd-2",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 73,
+    "latest_score": 75,
     "entry_price": 3.49,
     "first_seen_at": "2026-08-27T03:15:52.270535+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "SN64",
@@ -1347,7 +1347,7 @@
     "latest_score": 75,
     "entry_price": 0.087211,
     "first_seen_at": "2026-08-27T03:16:48.738505+00:00",
-    "repeat_count": 7
+    "repeat_count": 8
   },
   {
     "symbol": "UTYA",
@@ -1492,12 +1492,12 @@
   {
     "symbol": "FUN",
     "coin_id": "funfair",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 58,
+    "latest_score": 73,
     "entry_price": 0.00519374,
     "first_seen_at": "2026-08-27T03:17:08.122188+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "FRAX",
@@ -1694,10 +1694,10 @@
     "coin_id": "niu-lai",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 50,
     "entry_price": 0.04665938,
     "first_seen_at": "2026-08-27T03:17:33.806568+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "KITE",
@@ -1904,10 +1904,10 @@
     "coin_id": "seeker",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 90,
     "entry_price": 0.01063535,
     "first_seen_at": "2026-08-28T14:17:21.306342+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "GWEI",
@@ -1987,17 +1987,17 @@
     "latest_score": 75,
     "entry_price": 0.24827,
     "first_seen_at": "2026-08-29T08:57:33.453411+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "OHM",
     "coin_id": "olympus",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 50,
+    "latest_score": 58,
     "entry_price": 18.38,
     "first_seen_at": "2026-08-29T08:57:33.453440+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "ZETA",
@@ -2127,6 +2127,16 @@
     "latest_score": 75,
     "entry_price": 0.00442256,
     "first_seen_at": "2026-08-30T05:15:15.164575+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "DAI",
+    "coin_id": "dai-on-pulsechain",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.00265713,
+    "first_seen_at": "2026-08-30T11:49:27.754701+00:00",
     "repeat_count": 1
   }
 ]
