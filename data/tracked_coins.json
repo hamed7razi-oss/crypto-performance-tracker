@@ -491,13 +491,13 @@
   },
   {
     "symbol": "ANTFUN",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "antfun",
+    "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 83,
+    "latest_score": 75,
     "entry_price": 0.04233644,
     "first_seen_at": "2026-08-27T03:14:53.422147+00:00",
-    "repeat_count": 2
+    "repeat_count": 4
   },
   {
     "symbol": "UB",
@@ -781,23 +781,23 @@
   },
   {
     "symbol": "PENDLE",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "pendle",
+    "coin_id_confirmed": true,
     "score": 75,
     "latest_score": 75,
     "entry_price": 1.75,
     "first_seen_at": "2026-08-27T03:15:36.969129+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "UAI",
     "coin_id": "unifai-network",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 90,
+    "latest_score": 75,
     "entry_price": 0.270701,
     "first_seen_at": "2026-08-27T03:15:38.240071+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "ACRED",
@@ -1664,10 +1664,10 @@
     "coin_id": "plume",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 58,
+    "latest_score": 90,
     "entry_price": 0.01405744,
     "first_seen_at": "2026-08-27T03:17:29.961798+00:00",
-    "repeat_count": 2
+    "repeat_count": 4
   },
   {
     "symbol": "REQ",
@@ -1694,10 +1694,10 @@
     "coin_id": "niu-lai",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 50,
+    "latest_score": 75,
     "entry_price": 0.04665938,
     "first_seen_at": "2026-08-27T03:17:33.806568+00:00",
-    "repeat_count": 3
+    "repeat_count": 5
   },
   {
     "symbol": "KITE",
@@ -1944,10 +1944,10 @@
     "coin_id": "lab",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 90,
     "entry_price": 0.079822,
     "first_seen_at": "2026-08-29T00:31:42.792088+00:00",
-    "repeat_count": 1
+    "repeat_count": 3
   },
   {
     "symbol": "龙虾",
@@ -2054,10 +2054,10 @@
     "coin_id": "four",
     "coin_id_confirmed": true,
     "score": 90,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.254906,
     "first_seen_at": "2026-08-29T19:22:34.119858+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "TRUSD",
@@ -2137,6 +2137,66 @@
     "latest_score": 65,
     "entry_price": 0.00265713,
     "first_seen_at": "2026-08-30T11:49:27.754701+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ORCA",
+    "coin_id": "orca",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.35,
+    "first_seen_at": "2026-08-30T20:58:38.241208+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "STRK",
+    "coin_id": "starknet",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.02620326,
+    "first_seen_at": "2026-08-30T20:58:38.241243+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "ZK",
+    "coin_id": "zksync",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.00938152,
+    "first_seen_at": "2026-08-30T20:58:38.241259+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "W",
+    "coin_id": "wormhole",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.0094877,
+    "first_seen_at": "2026-08-30T20:58:38.241262+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CAKE",
+    "coin_id": "pancakeswap-token",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 1.87,
+    "first_seen_at": "2026-08-30T20:58:38.241267+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "SKY",
+    "coin_id": "sky",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.07145,
+    "first_seen_at": "2026-08-30T20:58:38.241273+00:00",
     "repeat_count": 1
   }
 ]
