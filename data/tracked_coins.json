@@ -132,12 +132,12 @@
   {
     "symbol": "FLR",
     "coin_id": "flare-networks",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
     "latest_score": 75,
     "entry_price": 0.00742655,
     "first_seen_at": "2026-08-27T03:14:07.285378+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "ETHFI",
@@ -461,13 +461,13 @@
   },
   {
     "symbol": "PRL",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "pearl-2",
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 65,
+    "latest_score": 100,
     "entry_price": 0.330402,
     "first_seen_at": "2026-08-27T03:14:49.654809+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "STRCX",
@@ -1271,13 +1271,13 @@
   },
   {
     "symbol": "JASMY",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "jasmycoin",
+    "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 58,
+    "latest_score": 75,
     "entry_price": 0.00472341,
     "first_seen_at": "2026-08-27T03:16:39.805799+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "REUSD",
@@ -1784,10 +1784,10 @@
     "coin_id": "safecoin",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 65,
     "entry_price": 0.146758,
     "first_seen_at": "2026-08-27T15:08:16.217698+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "WEMIX",
@@ -1854,10 +1854,10 @@
     "coin_id": "useless-3",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.069551,
     "first_seen_at": "2026-08-28T00:50:29.254453+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "UNT",
@@ -2317,6 +2317,56 @@
     "latest_score": 58,
     "entry_price": 0.063414,
     "first_seen_at": "2026-08-31T17:33:30.248480+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "RAM",
+    "coin_id": "ramses",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.930623,
+    "first_seen_at": "2026-08-31T22:45:45.723844+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "TSLAX",
+    "coin_id": "tesla-xstock",
+    "coin_id_confirmed": true,
+    "score": 68,
+    "latest_score": 68,
+    "entry_price": 367.29,
+    "first_seen_at": "2026-08-31T22:45:45.723892+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BTSE",
+    "coin_id": "btse-token",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.75504,
+    "first_seen_at": "2026-08-31T22:45:45.723900+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "0G",
+    "coin_id": "zero-gravity",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.227857,
+    "first_seen_at": "2026-08-31T22:45:45.723903+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "BGBTC",
+    "coin_id": "bitget-wrapped-btc",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 79025,
+    "first_seen_at": "2026-08-31T22:45:45.723906+00:00",
     "repeat_count": 1
   }
 ]
