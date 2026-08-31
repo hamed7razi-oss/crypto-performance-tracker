@@ -351,13 +351,13 @@
   },
   {
     "symbol": "UP",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "unitas",
+    "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 100,
+    "latest_score": 58,
     "entry_price": 0.428209,
     "first_seen_at": "2026-08-27T03:14:35.586716+00:00",
-    "repeat_count": 6
+    "repeat_count": 7
   },
   {
     "symbol": "GRASS",
@@ -494,10 +494,10 @@
     "coin_id": "antfun",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 75,
+    "latest_score": 58,
     "entry_price": 0.04233644,
     "first_seen_at": "2026-08-27T03:14:53.422147+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "UB",
@@ -764,10 +764,10 @@
     "coin_id": "cysic",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 75,
     "entry_price": 0.571804,
     "first_seen_at": "2026-08-27T03:15:34.395459+00:00",
-    "repeat_count": 6
+    "repeat_count": 7
   },
   {
     "symbol": "A7A5",
@@ -797,7 +797,7 @@
     "latest_score": 75,
     "entry_price": 0.270701,
     "first_seen_at": "2026-08-27T03:15:38.240071+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "ACRED",
@@ -2257,6 +2257,66 @@
     "latest_score": 58,
     "entry_price": 6.94,
     "first_seen_at": "2026-08-31T08:35:11.712588+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "COW",
+    "coin_id": "cow-protocol",
+    "coin_id_confirmed": true,
+    "score": 83,
+    "latest_score": 83,
+    "entry_price": 0.123385,
+    "first_seen_at": "2026-08-31T17:33:30.248418+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "Q",
+    "coin_id": "quack-ai",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.02406793,
+    "first_seen_at": "2026-08-31T17:33:30.248465+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "NOT",
+    "coin_id": "notcoin",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.00044701,
+    "first_seen_at": "2026-08-31T17:33:30.248470+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "CRV",
+    "coin_id": "curve-dao-token",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.310136,
+    "first_seen_at": "2026-08-31T17:33:30.248473+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "YLDS",
+    "coin_id": "ylds",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 1.0,
+    "first_seen_at": "2026-08-31T17:33:30.248475+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "AWE",
+    "coin_id": "stp-network",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.063414,
+    "first_seen_at": "2026-08-31T17:33:30.248480+00:00",
     "repeat_count": 1
   }
 ]
