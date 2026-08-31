@@ -221,13 +221,13 @@
   },
   {
     "symbol": "LIT",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "lighter",
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 85,
     "entry_price": 3.05,
     "first_seen_at": "2026-08-27T03:14:18.966807+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "IOTA",
@@ -477,7 +477,7 @@
     "latest_score": 58,
     "entry_price": 103.4,
     "first_seen_at": "2026-08-27T03:14:50.900404+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "USAT",
@@ -767,7 +767,7 @@
     "latest_score": 65,
     "entry_price": 0.571804,
     "first_seen_at": "2026-08-27T03:15:34.395459+00:00",
-    "repeat_count": 5
+    "repeat_count": 6
   },
   {
     "symbol": "A7A5",
@@ -1032,12 +1032,12 @@
   {
     "symbol": "CASHCAT",
     "coin_id": "cash-cat",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.145842,
     "first_seen_at": "2026-08-27T03:16:08.732165+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "PURR",
@@ -1347,7 +1347,7 @@
     "latest_score": 75,
     "entry_price": 0.087211,
     "first_seen_at": "2026-08-27T03:16:48.738505+00:00",
-    "repeat_count": 8
+    "repeat_count": 9
   },
   {
     "symbol": "UTYA",
@@ -1622,12 +1622,12 @@
   {
     "symbol": "OZO",
     "coin_id": "ozone-chain",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 58,
     "latest_score": 58,
     "entry_price": 0.131078,
     "first_seen_at": "2026-08-27T03:17:24.900448+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "ONE",
@@ -1904,10 +1904,10 @@
     "coin_id": "seeker",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 90,
+    "latest_score": 75,
     "entry_price": 0.01063535,
     "first_seen_at": "2026-08-28T14:17:21.306342+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "GWEI",
@@ -1944,10 +1944,10 @@
     "coin_id": "lab",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 90,
+    "latest_score": 65,
     "entry_price": 0.079822,
     "first_seen_at": "2026-08-29T00:31:42.792088+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "龙虾",
@@ -2037,17 +2037,17 @@
     "latest_score": 65,
     "entry_price": 0.051962,
     "first_seen_at": "2026-08-29T15:00:47.457909+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "DASH",
     "coin_id": "dash",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 65,
+    "latest_score": 58,
     "entry_price": 41.85,
     "first_seen_at": "2026-08-29T19:22:34.119832+00:00",
-    "repeat_count": 3
+    "repeat_count": 4
   },
   {
     "symbol": "FORM",
