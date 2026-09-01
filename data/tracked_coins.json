@@ -137,7 +137,7 @@
     "latest_score": 75,
     "entry_price": 0.00742655,
     "first_seen_at": "2026-08-27T03:14:07.285378+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "ETHFI",
@@ -354,10 +354,10 @@
     "coin_id": "unitas",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 58,
+    "latest_score": 75,
     "entry_price": 0.428209,
     "first_seen_at": "2026-08-27T03:14:35.586716+00:00",
-    "repeat_count": 7
+    "repeat_count": 8
   },
   {
     "symbol": "GRASS",
@@ -464,10 +464,10 @@
     "coin_id": "pearl-2",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 100,
+    "latest_score": 90,
     "entry_price": 0.330402,
     "first_seen_at": "2026-08-27T03:14:49.654809+00:00",
-    "repeat_count": 3
+    "repeat_count": 5
   },
   {
     "symbol": "STRCX",
@@ -722,12 +722,12 @@
   {
     "symbol": "RLB",
     "coin_id": "rollbit-coin",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 73,
+    "latest_score": 58,
     "entry_price": 0.079765,
     "first_seen_at": "2026-08-27T03:15:29.199528+00:00",
-    "repeat_count": 4
+    "repeat_count": 5
   },
   {
     "symbol": "CROSS",
@@ -1022,12 +1022,12 @@
   {
     "symbol": "DOG",
     "coin_id": "dog-go-to-the-moon-rune",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 58,
     "entry_price": 0.00094406,
     "first_seen_at": "2026-08-27T03:16:07.491713+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "CASHCAT",
@@ -1192,12 +1192,12 @@
   {
     "symbol": "GOMINING",
     "coin_id": "gmt-token",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 85,
-    "latest_score": 85,
+    "latest_score": 68,
     "entry_price": 0.33858,
     "first_seen_at": "2026-08-27T03:16:29.476676+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "APYUSD",
@@ -1251,13 +1251,13 @@
   },
   {
     "symbol": "HASH",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "hash-2",
+    "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 65,
+    "latest_score": 100,
     "entry_price": 0.00844077,
     "first_seen_at": "2026-08-27T03:16:37.169007+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "OUSG",
@@ -1274,10 +1274,10 @@
     "coin_id": "jasmycoin",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 75,
+    "latest_score": 65,
     "entry_price": 0.00472341,
     "first_seen_at": "2026-08-27T03:16:39.805799+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "REUSD",
@@ -1427,7 +1427,7 @@
     "latest_score": 65,
     "entry_price": 0.457265,
     "first_seen_at": "2026-08-27T03:16:58.922953+00:00",
-    "repeat_count": 5
+    "repeat_count": 6
   },
   {
     "symbol": "SPCXB",
@@ -1787,7 +1787,7 @@
     "latest_score": 65,
     "entry_price": 0.146758,
     "first_seen_at": "2026-08-27T15:08:16.217698+00:00",
-    "repeat_count": 2
+    "repeat_count": 3
   },
   {
     "symbol": "WEMIX",
@@ -2294,10 +2294,10 @@
     "coin_id": "curve-dao-token",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 58,
+    "latest_score": 75,
     "entry_price": 0.310136,
     "first_seen_at": "2026-08-31T17:33:30.248473+00:00",
-    "repeat_count": 1
+    "repeat_count": 2
   },
   {
     "symbol": "YLDS",
@@ -2367,6 +2367,66 @@
     "latest_score": 58,
     "entry_price": 79025,
     "first_seen_at": "2026-08-31T22:45:45.723906+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "ARB",
+    "coin_id": "arbitrum",
+    "coin_id_confirmed": true,
+    "score": 75,
+    "latest_score": 75,
+    "entry_price": 0.107254,
+    "first_seen_at": "2026-09-01T04:57:02.982564+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "GOOSE",
+    "coin_id": "goose-token",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.071682,
+    "first_seen_at": "2026-09-01T04:57:02.982593+00:00",
+    "repeat_count": 2
+  },
+  {
+    "symbol": "USTBL",
+    "coin_id": "spiko-us-t-bills-money-market-fund",
+    "coin_id_confirmed": true,
+    "score": 63,
+    "latest_score": 63,
+    "entry_price": 1.095,
+    "first_seen_at": "2026-09-01T04:57:02.982597+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "MINA",
+    "coin_id": "mina-protocol",
+    "coin_id_confirmed": true,
+    "score": 58,
+    "latest_score": 58,
+    "entry_price": 0.066936,
+    "first_seen_at": "2026-09-01T04:57:02.982605+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "STABLE",
+    "coin_id": "stable-2",
+    "coin_id_confirmed": true,
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.02850988,
+    "first_seen_at": "2026-09-01T04:57:02.982611+00:00",
+    "repeat_count": 1
+  },
+  {
+    "symbol": "JST",
+    "coin_id": "just",
+    "coin_id_confirmed": true,
+    "score": 65,
+    "latest_score": 65,
+    "entry_price": 0.099808,
+    "first_seen_at": "2026-09-01T04:57:02.982615+00:00",
     "repeat_count": 1
   }
 ]
