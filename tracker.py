@@ -117,6 +117,10 @@ def ingest_signals(tracked, new_signals):
                 existing = by_symbol[symbol]
                 existing["repeat_count"] = existing.get("repeat_count", 1) + 1
                 existing["latest_score"] = item.get("score")
+                if item.get("reasons"):
+                    existing["latest_reasons"] = item["reasons"]
+                if item.get("rsi") is not None:
+                    existing["latest_rsi"] = item["rsi"]
                 # اگه شناسه دقیق کوین تو سیگنال جدید بود ولی قبلاً نداشتیم (سیگنال‌های قدیمی‌تر)، الان درستش کن
                 if item.get("coin_id") and not existing.get("coin_id_confirmed"):
                     existing["coin_id"] = item["coin_id"]
@@ -135,11 +139,17 @@ def ingest_signals(tracked, new_signals):
                 "symbol": symbol,
                 "coin_id": coin_id,
                 "coin_id_confirmed": confirmed,
+                "name": item.get("name"),
                 "score": item.get("score"),
                 "latest_score": item.get("score"),
                 "entry_price": item.get("price") or None,
                 "first_seen_at": datetime.now(timezone.utc).isoformat(),
                 "repeat_count": 1,
+                "reasons": item.get("reasons", []),
+                "latest_reasons": item.get("reasons", []),
+                "entry_rsi": item.get("rsi"),
+                "latest_rsi": item.get("rsi"),
+                "entry_alpha_vs_btc": item.get("alpha_vs_btc"),
             }
             by_symbol[symbol] = entry
             tracked.append(entry)
