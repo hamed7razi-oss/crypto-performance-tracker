@@ -66,7 +66,7 @@
 
   /* ---------- Shell ---------- */
   .shell{ max-width:920px; margin:0 auto; padding:0 16px; }
-  header.hero{ padding:28px 0 8px; }
+  header.hero-compact{ padding:24px 0 4px; }
   .eyebrow{
     display:flex; align-items:center; gap:8px;
     font-size:12px; color:var(--text-dim); letter-spacing:.03em;
@@ -86,6 +86,15 @@
   h1.brand{ font-size:26px; font-weight:700; letter-spacing:-0.01em; }
   h1.brand span{ color:var(--gold); }
   .subtitle{ color:var(--text-dim); font-size:13.5px; margin-top:4px; }
+
+  /* ---------- Tabs ---------- */
+  .tabs{ display:flex; gap:8px; margin-top:20px; border-bottom:1px solid var(--border); }
+  .tab-btn{
+    flex:1; background:none; border:none; color:var(--text-dim); font-family:'Inter',sans-serif;
+    font-size:14px; font-weight:600; padding:12px 6px; cursor:pointer;
+    border-bottom:2px solid transparent; margin-bottom:-1px;
+  }
+  .tab-btn.active{ color:var(--gold); border-bottom-color:var(--gold); }
 
   .hero-value{ margin-top:22px; }
   .hero-value .amount{ font-size:44px; font-weight:600; line-height:1; }
@@ -125,7 +134,7 @@
   .leader-bar-fill{ height:100%; border-radius:6px; }
   .leader-pct{ width:64px; text-align:left; font-size:13px; font-family:'IBM Plex Mono',monospace; font-weight:600; }
 
-  /* ---------- Coin grid ---------- */
+  /* ---------- Coin grid (چارت کلی) ---------- */
   .coin-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
   .coin-card{
     background:var(--surface); border:1px solid var(--border); border-radius:14px;
@@ -136,6 +145,33 @@
   .coin-meta{ font-size:10px; color:var(--text-faint); margin-top:2px; }
   .coin-pct{ font-size:13px; font-weight:600; font-family:'IBM Plex Mono',monospace; }
   .coin-spark{ height:44px; }
+
+  /* ---------- Coin detail cards (تب کوین‌های پیشنهادی) ---------- */
+  .detail-card{
+    background:var(--surface); border:1px solid var(--border); border-radius:16px;
+    padding:16px; margin-bottom:12px;
+  }
+  .detail-top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+  .detail-sym-block{ display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; }
+  .detail-sym{ font-size:18px; font-weight:700; font-family:'Space Grotesk',sans-serif; }
+  .detail-name{ font-size:12px; color:var(--text-faint); }
+  .detail-pct{ font-size:18px; font-weight:700; font-family:'IBM Plex Mono',monospace; flex-shrink:0; }
+  .detail-meta-row{ display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  .chip{
+    font-size:10.5px; padding:3px 9px; border-radius:20px; background:var(--surface-2);
+    color:var(--text-dim); border:1px solid var(--border);
+  }
+  .chip.chip-score{ color:var(--gold); border-color:rgba(242,184,75,0.35); }
+  .detail-spark{ height:56px; margin-top:12px; }
+  .detail-prices{
+    display:flex; justify-content:space-between; margin-top:10px; font-size:12px;
+    color:var(--text-dim); font-family:'IBM Plex Mono',monospace;
+  }
+  .detail-invest{ font-size:11.5px; color:var(--text-faint); margin-top:2px; }
+  .detail-reasons{ margin-top:12px; padding-top:12px; border-top:1px solid var(--border); }
+  .detail-reasons .label{ font-size:11px; color:var(--text-faint); margin-bottom:6px; }
+  .detail-reasons ul{ margin:0; padding-inline-start:18px; }
+  .detail-reasons li{ font-size:12.5px; color:var(--text); line-height:1.9; }
 
   footer{ margin-top:44px; padding:0 16px; text-align:center; }
   footer p{ font-size:11.5px; color:var(--text-faint); line-height:1.7; }
@@ -155,12 +191,35 @@
   <div class="ticker-wrap"><div class="ticker-track" id="tickerTrack"></div></div>
 
   <div class="shell">
-    <header class="hero">
+    <header class="hero-compact">
       <div class="eyebrow"><span class="pulse-dot"></span><span id="lastUpdate">در حال بارگذاری…</span></div>
       <h1 class="brand">Signal <span>Radar</span></h1>
       <p class="subtitle">پیگیری خودکار عملکرد واقعی سیگنال‌های اسکرینر کریپتو</p>
+    </header>
 
-      <div class="hero-value">
+    <nav class="tabs">
+      <button class="tab-btn active" id="tabBtnCoins" onclick="switchTab('coins')">کوین‌های پیشنهادی</button>
+      <button class="tab-btn" id="tabBtnChart" onclick="switchTab('chart')">نمودار کلی</button>
+    </nav>
+
+    <!-- ===================== تب ۱: کوین‌های پیشنهادی ===================== -->
+    <div id="tabCoins">
+      <div class="stat-row">
+        <div class="stat-chip"><div class="label">کوین‌های پیگیری‌شده</div><div class="value" id="statCount2">—</div></div>
+        <div class="stat-chip"><div class="label">نرخ موفقیت</div><div class="value" id="statWinRate2">—</div></div>
+        <div class="stat-chip"><div class="label">سود/زیان کل</div><div class="value" id="statPnl2">—</div></div>
+      </div>
+
+      <div class="section-head" style="margin-top:22px;">
+        <h2>لیست کامل پیشنهادها</h2>
+        <span class="hint">جدیدترین بالا</span>
+      </div>
+      <div id="coinsDetailList"></div>
+    </div>
+
+    <!-- ===================== تب ۲: نمودار کلی ===================== -->
+    <div id="tabChart" style="display:none;">
+      <div class="hero-value" style="margin-top:20px;">
         <div class="amount mono" id="portfolioValue">$0</div>
         <div class="delta" id="portfolioDelta">—</div>
       </div>
@@ -170,27 +229,22 @@
         <div class="stat-chip"><div class="label">نرخ موفقیت</div><div class="value" id="statWinRate">—</div></div>
         <div class="stat-chip"><div class="label">همبستگی امتیاز/بازده</div><div class="value" id="statCorr">—</div></div>
       </div>
-    </header>
 
-    <section>
-      <div class="section-head"><h2>روند ارزش پرتفوی</h2><span class="hint">۱۰۰ دلار به‌ازای هر کوین</span></div>
-      <div class="card"><div class="chart-box tall"><canvas id="portfolioChart"></canvas></div></div>
-    </section>
+      <section>
+        <div class="section-head"><h2>روند ارزش پرتفوی</h2><span class="hint">۱۰۰ دلار به‌ازای هر کوین</span></div>
+        <div class="card"><div class="chart-box tall"><canvas id="portfolioChart"></canvas></div></div>
+      </section>
 
-    <section>
-      <div class="section-head"><h2>رتبه‌بندی بازدهی کوین‌ها</h2><span class="hint">از بهترین به بدترین</span></div>
-      <div class="card" id="leaderboard"></div>
-    </section>
+      <section>
+        <div class="section-head"><h2>رتبه‌بندی بازدهی کوین‌ها</h2><span class="hint">از بهترین به بدترین</span></div>
+        <div class="card" id="leaderboard"></div>
+      </section>
 
-    <section>
-      <div class="section-head"><h2>امتیاز ربات در برابر بازده واقعی</h2><span class="hint">هر نقطه یک کوین</span></div>
-      <div class="card"><div class="chart-box"><canvas id="scatterChart"></canvas></div></div>
-    </section>
-
-    <section>
-      <div class="section-head"><h2>روند تک‌تک کوین‌ها</h2><span class="hint">از لحظه معرفی تا الان</span></div>
-      <div class="coin-grid" id="coinGrid"></div>
-    </section>
+      <section>
+        <div class="section-head"><h2>امتیاز ربات در برابر بازده واقعی</h2><span class="hint">هر نقطه یک کوین</span></div>
+        <div class="card"><div class="chart-box"><canvas id="scatterChart"></canvas></div></div>
+      </section>
+    </div>
 
     <footer>
       <p>
@@ -259,6 +313,113 @@ function renderHero(perf){
   const winners = perf.filter(c => c.pct > 0).length;
   document.getElementById('statCount').textContent = perf.length;
   document.getElementById('statWinRate').textContent = perf.length ? Math.round(winners/perf.length*100) + '%' : '—';
+
+  // آمار تب "کوین‌های پیشنهادی"
+  const profit = total - baseline;
+  const c2 = document.getElementById('statCount2');
+  const w2 = document.getElementById('statWinRate2');
+  const p2 = document.getElementById('statPnl2');
+  if(c2) c2.textContent = perf.length;
+  if(w2) w2.textContent = perf.length ? Math.round(winners/perf.length*100) + '%' : '—';
+  if(p2){
+    p2.textContent = (profit>=0?'+':'') + fmtUSD(profit);
+    p2.style.color = profit >= 0 ? GAIN : LOSS;
+  }
+}
+
+function switchTab(name){
+  document.getElementById('tabCoins').style.display = name === 'coins' ? '' : 'none';
+  document.getElementById('tabChart').style.display = name === 'chart' ? '' : 'none';
+  document.getElementById('tabBtnCoins').classList.toggle('active', name === 'coins');
+  document.getElementById('tabBtnChart').classList.toggle('active', name === 'chart');
+}
+
+function formatFullDate(iso){
+  const d = new Date(iso);
+  const mm = String(d.getMonth()+1).padStart(2,'0');
+  const dd = String(d.getDate()).padStart(2,'0');
+  return `${d.getFullYear()}-${mm}-${dd}`;
+}
+
+function renderCoinsDetailList(tracked, history){
+  const container = document.getElementById('coinsDetailList');
+  if(!tracked.length){
+    container.innerHTML = '<div class="empty-state">هنوز کوینی پیشنهاد نشده</div>';
+    return;
+  }
+  const latest = history.length ? history[history.length-1].prices : {};
+
+  const sorted = [...tracked].sort((a,b) => new Date(b.first_seen_at) - new Date(a.first_seen_at));
+
+  container.innerHTML = sorted.map(c => {
+    const price = latest[c.symbol];
+    const pct = (price && c.entry_price) ? (price/c.entry_price - 1) * 100 : null;
+    const color = pct === null ? DIM : (pct >= 0 ? GAIN : LOSS);
+    const value100 = (price && c.entry_price) ? 100 * price / c.entry_price : 100;
+    const reasons = c.latest_reasons && c.latest_reasons.length ? c.latest_reasons : (c.reasons || []);
+    const rsi = c.latest_rsi ?? c.entry_rsi;
+    const alpha = c.entry_alpha_vs_btc;
+
+    return `
+    <div class="detail-card">
+      <div class="detail-top">
+        <div class="detail-sym-block">
+          <span class="detail-sym">${c.symbol}</span>
+          ${c.name ? `<span class="detail-name">${c.name}</span>` : ''}
+        </div>
+        <div class="detail-pct" style="color:${color}">${pct === null ? '—' : fmtPct(pct)}</div>
+      </div>
+
+      <div class="detail-meta-row">
+        <span class="chip">📅 ${formatFullDate(c.first_seen_at)}</span>
+        <span class="chip chip-score">امتیاز ${c.latest_score ?? c.score}</span>
+        ${c.repeat_count > 1 ? `<span class="chip">تکرار x${c.repeat_count}</span>` : ''}
+        ${rsi != null ? `<span class="chip">RSI ${rsi}</span>` : ''}
+        ${alpha != null ? `<span class="chip">آلفا ${alpha>=0?'+':''}${alpha}%</span>` : ''}
+      </div>
+
+      <div class="detail-spark"><canvas id="dspark-${cssSafe(c.symbol)}"></canvas></div>
+
+      <div class="detail-prices">
+        <span>قیمت ورود: $${c.entry_price ?? '—'}</span>
+        <span>قیمت فعلی: $${price ?? '—'}</span>
+      </div>
+      <div class="detail-invest">سرمایه فرضی ۱۰۰ دلاری الان: <b style="color:${color}">${fmtUSD(value100)}</b></div>
+
+      ${reasons.length ? `
+      <div class="detail-reasons">
+        <div class="label">دلایل پیشنهاد ربات</div>
+        <ul>${reasons.map(r => `<li>${r}</li>`).join('')}</ul>
+      </div>` : ''}
+    </div>`;
+  }).join('');
+
+  // رسم نمودار ریز قیمت برای هر کارت
+  sorted.forEach(c => {
+    const series = history
+      .map(h => ({t: h.timestamp, p: h.prices[c.symbol]}))
+      .filter(pt => pt.p !== null && pt.p !== undefined);
+    const canvas = document.getElementById('dspark-'+cssSafe(c.symbol));
+    if(!canvas || series.length < 2) return;
+    const pctNow = c.entry_price ? (series[series.length-1].p / c.entry_price - 1) * 100 : 0;
+    new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: series.map(pt => pt.t),
+        datasets: [{
+          data: series.map(pt => pt.p),
+          borderColor: pctNow >= 0 ? GAIN : LOSS,
+          backgroundColor: (pctNow >= 0 ? GAIN : LOSS) + '1A',
+          borderWidth: 1.5, fill: true, tension: 0.35, pointRadius: 0,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display:false }, tooltip: { enabled:false } },
+        scales: { x: { display:false }, y: { display:false } },
+      }
+    });
+  });
 }
 
 function pearson(xs, ys){
@@ -368,57 +529,6 @@ function renderScatter(perf){
   });
 }
 
-function renderCoinGrid(tracked, history){
-  const grid = document.getElementById('coinGrid');
-  if(!tracked.length){ grid.innerHTML = '<div class="empty-state">هنوز کوینی ثبت نشده</div>'; return; }
-
-  const sorted = [...tracked].sort((a,b) => (b.latest_score||b.score) - (a.latest_score||a.score));
-  grid.innerHTML = sorted.map(c => `
-    <div class="coin-card">
-      <div class="coin-card-top">
-        <div>
-          <div class="coin-sym">${c.symbol}</div>
-          <div class="coin-meta">امتیاز ${c.latest_score || c.score}${c.repeat_count>1 ? ' · x'+c.repeat_count : ''}</div>
-        </div>
-        <div class="coin-pct" id="pct-${cssSafe(c.symbol)}"></div>
-      </div>
-      <div class="coin-spark"><canvas id="spark-${cssSafe(c.symbol)}"></canvas></div>
-    </div>
-  `).join('');
-
-  sorted.forEach(c => {
-    const series = history
-      .map(h => ({t: h.timestamp, p: h.prices[c.symbol]}))
-      .filter(pt => pt.p !== null && pt.p !== undefined);
-    if(series.length < 1) return;
-
-    const pctNow = c.entry_price ? (series[series.length-1].p / c.entry_price - 1) * 100 : 0;
-    const pctEl = document.getElementById('pct-'+cssSafe(c.symbol));
-    if(pctEl){ pctEl.textContent = fmtPct(pctNow); pctEl.style.color = pctNow >= 0 ? GAIN : LOSS; }
-
-    const canvas = document.getElementById('spark-'+cssSafe(c.symbol));
-    if(!canvas || series.length < 2) return;
-    new Chart(canvas, {
-      type: 'line',
-      data: {
-        labels: series.map(pt => pt.t),
-        datasets: [{
-          data: series.map(pt => pt.p),
-          borderColor: pctNow >= 0 ? GAIN : LOSS,
-          backgroundColor: (pctNow >= 0 ? GAIN : LOSS) + '1A',
-          borderWidth: 1.5, fill: true, tension: 0.35, pointRadius: 0,
-        }]
-      },
-      options: {
-        responsive: true, maintainAspectRatio: false,
-        plugins: { legend: { display:false }, tooltip: { enabled:false } },
-        scales: { x: { display:false }, y: { display:false } },
-        elements: { line: { borderJoinStyle: 'round' } },
-      }
-    });
-  });
-}
-
 function cssSafe(s){ return s.replace(/[^a-zA-Z0-9]/g, '_'); }
 
 function timeAgoFa(iso){
@@ -435,7 +545,7 @@ function timeAgoFa(iso){
   if(!history.length){
     document.getElementById('lastUpdate').textContent = 'در انتظار اولین اجرا…';
     document.getElementById('leaderboard').innerHTML = '<div class="empty-state"><div class="display">هنوز داده‌ای نیست</div>ردیاب هنوز اولین اجرایش را نداشته.</div>';
-    document.getElementById('coinGrid').innerHTML = '';
+    document.getElementById('coinsDetailList').innerHTML = '<div class="empty-state">هنوز کوینی پیشنهاد نشده</div>';
     renderTicker([]);
     return;
   }
@@ -455,7 +565,7 @@ function timeAgoFa(iso){
     if (history.length >= 2) renderScatter(perf);
     else document.getElementById('scatterChart').parentElement.innerHTML = '<div class="empty-state">برای این نمودار حداقل ۲ اجرا لازم است</div>';
   });
-  safeRun('coinGrid', () => renderCoinGrid(tracked, history));
+  safeRun('coinsDetailList', () => renderCoinsDetailList(tracked, history));
 })();
 </script>
 </body>
