@@ -77,12 +77,20 @@
   {
     "symbol": "WLD",
     "coin_id": "worldcoin-wld",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 81,
     "entry_price": 0.397838,
     "first_seen_at": "2026-08-27T03:13:58.018354+00:00",
-    "repeat_count": 1
+    "repeat_count": 2,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.1%)"
+    ],
+    "latest_rsi": 65.6
   },
   {
     "symbol": "ALGO",
@@ -147,18 +155,18 @@
     "coin_id": "jupiter-exchange-solana",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 93,
+    "latest_score": 82,
     "entry_price": 0.210141,
     "first_seen_at": "2026-08-27T03:14:05.901575+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (60)",
+      "RSI اشباع خرید - احتیاط (79)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.5%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +23.5%)"
     ],
-    "latest_rsi": 60.1
+    "latest_rsi": 79.0
   },
   {
     "symbol": "FLR",
@@ -231,18 +239,18 @@
     "coin_id": "celestia",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 93,
+    "latest_score": 82,
     "entry_price": 0.390808,
     "first_seen_at": "2026-08-27T03:14:13.861357+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (65)",
+      "RSI اشباع خرید - احتیاط (74)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.7%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.8%)"
     ],
-    "latest_rsi": 65.1
+    "latest_rsi": 73.6
   },
   {
     "symbol": "BSV",
@@ -293,13 +301,21 @@
   },
   {
     "symbol": "IOTA",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "iota",
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 93,
     "entry_price": 0.04330919,
     "first_seen_at": "2026-08-27T03:14:20.250113+00:00",
-    "repeat_count": 1
+    "repeat_count": 2,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.4%)"
+    ],
+    "latest_rsi": 63.9
   },
   {
     "symbol": "THETA",
@@ -505,13 +521,21 @@
   },
   {
     "symbol": "MET",
-    "coin_id": null,
-    "coin_id_confirmed": false,
+    "coin_id": "meteora",
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 93,
     "entry_price": 0.23343,
     "first_seen_at": "2026-08-27T03:14:44.526333+00:00",
-    "repeat_count": 2
+    "repeat_count": 3,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.8%)"
+    ],
+    "latest_rsi": 66.1
   },
   {
     "symbol": "ZAMA",
@@ -1909,12 +1933,20 @@
   {
     "symbol": "FARTCOIN",
     "coin_id": "fartcoin",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 90,
+    "latest_score": 93,
     "entry_price": 0.207474,
     "first_seen_at": "2026-08-27T03:17:17.231391+00:00",
-    "repeat_count": 2
+    "repeat_count": 3,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.6%)"
+    ],
+    "latest_rsi": 65.7
   },
   {
     "symbol": "CX",
@@ -2528,10 +2560,18 @@
     "coin_id": "gmx",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 75,
+    "latest_score": 82,
     "entry_price": 8.08,
     "first_seen_at": "2026-08-29T19:22:34.119870+00:00",
-    "repeat_count": 2
+    "repeat_count": 3,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (85)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.3%)"
+    ],
+    "latest_rsi": 85.3
   },
   {
     "symbol": "PROS",
@@ -3764,10 +3804,10 @@
     "coin_id_confirmed": true,
     "name": "Midnight",
     "score": 82,
-    "latest_score": 73,
+    "latest_score": 81,
     "entry_price": 0.02240937,
     "first_seen_at": "2026-09-03T23:58:50.604510+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -3777,9 +3817,10 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
       "RSI در محدوده سالم صعودی (70)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.1%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.9%)"
     ],
     "entry_rsi": 85.0,
     "latest_rsi": 70.0,
@@ -4093,10 +4134,10 @@
     "coin_id_confirmed": true,
     "name": "Oasis",
     "score": 76,
-    "latest_score": 76,
+    "latest_score": 82,
     "entry_price": 0.00664796,
     "first_seen_at": "2026-09-05T04:16:48.976793+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
@@ -4105,14 +4146,14 @@
       "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.3%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
+      "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (69)",
-      "کراس صعودی MACD",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.3%)"
+      "RSI اشباع خرید - احتیاط (76)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
     ],
     "entry_rsi": 69.1,
-    "latest_rsi": 69.1,
+    "latest_rsi": 75.8,
     "entry_alpha_vs_btc": 6.34
   },
   {
@@ -4444,5 +4485,33 @@
     "entry_rsi": 92.0,
     "latest_rsi": 92.0,
     "entry_alpha_vs_btc": 332.43
+  },
+  {
+    "symbol": "COTI",
+    "coin_id": "coti",
+    "coin_id_confirmed": true,
+    "name": "COTI",
+    "score": 82,
+    "latest_score": 82,
+    "entry_price": 0.0187682,
+    "first_seen_at": "2026-09-06T18:13:49.440589+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (83)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.5%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (83)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.5%)"
+    ],
+    "entry_rsi": 82.7,
+    "latest_rsi": 82.7,
+    "entry_alpha_vs_btc": 14.51
   }
 ]
