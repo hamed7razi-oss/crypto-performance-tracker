@@ -767,12 +767,20 @@
   {
     "symbol": "STX",
     "coin_id": "blockstack",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 81,
     "entry_price": 0.227733,
     "first_seen_at": "2026-08-27T03:15:12.581008+00:00",
-    "repeat_count": 6
+    "repeat_count": 7,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.6%)"
+    ],
+    "latest_rsi": 67.1
   },
   {
     "symbol": "NPC",
@@ -992,17 +1000,17 @@
     "coin_id": "unifai-network",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 73,
+    "latest_score": 61,
     "entry_price": 0.270701,
     "first_seen_at": "2026-08-27T03:15:38.240071+00:00",
-    "repeat_count": 12,
+    "repeat_count": 13,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (67)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (69)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.7%)"
     ],
-    "latest_rsi": 67.2
+    "latest_rsi": 69.0
   },
   {
     "symbol": "ACRED",
@@ -1233,14 +1241,14 @@
     "latest_score": 62,
     "entry_price": 5.28,
     "first_seen_at": "2026-08-27T03:15:59.843892+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (90)",
+      "RSI اشباع خرید - احتیاط (95)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.5%)"
     ],
-    "latest_rsi": 90.3
+    "latest_rsi": 94.9
   },
   {
     "symbol": "APE",
@@ -1788,10 +1796,18 @@
     "coin_id": "peaq-2",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 58,
+    "latest_score": 82,
     "entry_price": 0.02169929,
     "first_seen_at": "2026-08-27T03:16:57.677077+00:00",
-    "repeat_count": 3
+    "repeat_count": 4,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (73)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +21.9%)"
+    ],
+    "latest_rsi": 72.8
   },
   {
     "symbol": "TWT",
@@ -2453,10 +2469,18 @@
     "coin_id": "kava",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 75,
+    "latest_score": 82,
     "entry_price": 0.04723021,
     "first_seen_at": "2026-08-29T00:31:42.792096+00:00",
-    "repeat_count": 1
+    "repeat_count": 2,
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (90)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+    ],
+    "latest_rsi": 90.0
   },
   {
     "symbol": "US",
@@ -3242,10 +3266,10 @@
     "coin_id_confirmed": true,
     "name": "Nockchain",
     "score": 82,
-    "latest_score": 89,
+    "latest_score": 73,
     "entry_price": 0.02048805,
     "first_seen_at": "2026-09-01T20:58:12.872050+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -3255,13 +3279,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (80)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +59.3%)"
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +58.7%)"
     ],
     "entry_rsi": 80.3,
-    "latest_rsi": 79.8,
+    "latest_rsi": 69.9,
     "entry_alpha_vs_btc": 9.38
   },
   {
@@ -4281,10 +4304,10 @@
     "coin_id_confirmed": true,
     "name": "BULLA",
     "score": 82,
-    "latest_score": 73,
+    "latest_score": 65,
     "entry_price": 0.075529,
     "first_seen_at": "2026-09-05T10:29:02.764040+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -4294,12 +4317,11 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (67)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +197.7%)"
+      "RSI در محدوده سالم صعودی (52)",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +16.4%)"
     ],
     "entry_rsi": 77.2,
-    "latest_rsi": 67.1,
+    "latest_rsi": 52.1,
     "entry_alpha_vs_btc": 141.39
   },
   {
@@ -4697,7 +4719,7 @@
     "latest_score": 82,
     "entry_price": 0.03456203,
     "first_seen_at": "2026-09-07T12:19:26.468376+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -4708,12 +4730,12 @@
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (83)",
+      "RSI اشباع خرید - احتیاط (86)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.6%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.5%)"
     ],
     "entry_rsi": 83.3,
-    "latest_rsi": 83.3,
+    "latest_rsi": 86.0,
     "entry_alpha_vs_btc": 10.64
   },
   {
@@ -4741,5 +4763,59 @@
     "entry_rsi": 62.4,
     "latest_rsi": 62.4,
     "entry_alpha_vs_btc": 113.42
+  },
+  {
+    "symbol": "AMC",
+    "coin_id": "a-meme-coin",
+    "coin_id_confirmed": true,
+    "name": "A Meme Coin",
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.09666,
+    "first_seen_at": "2026-09-07T18:42:04.219912+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (59)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +144.5%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (59)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +144.5%)"
+    ],
+    "entry_rsi": 58.6,
+    "latest_rsi": 58.6,
+    "entry_alpha_vs_btc": 144.52
+  },
+  {
+    "symbol": "CKB",
+    "coin_id": "nervos-network",
+    "coin_id_confirmed": true,
+    "name": "Nervos Network",
+    "score": 69,
+    "latest_score": 69,
+    "entry_price": 0.00115989,
+    "first_seen_at": "2026-09-07T18:42:04.219940+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
+    ],
+    "entry_rsi": 69.6,
+    "latest_rsi": 69.6,
+    "entry_alpha_vs_btc": 4.5
   }
 ]
