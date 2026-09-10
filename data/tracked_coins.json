@@ -1041,16 +1041,17 @@
     "coin_id": "unifai-network",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 65,
+    "latest_score": 80,
     "entry_price": 0.270701,
     "first_seen_at": "2026-08-27T03:15:38.240071+00:00",
-    "repeat_count": 17,
+    "repeat_count": 18,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (65)",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.8%)"
+      "RSI در محدوده سالم صعودی (64)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.1%)"
     ],
-    "latest_rsi": 64.8
+    "latest_rsi": 63.7
   },
   {
     "symbol": "ACRED",
@@ -1194,17 +1195,17 @@
     "coin_id": "elrond-erd-2",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 61,
+    "latest_score": 50,
     "entry_price": 3.49,
     "first_seen_at": "2026-08-27T03:15:52.270535+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (68)",
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (77)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.5%)"
     ],
-    "latest_rsi": 68.2
+    "latest_rsi": 76.7
   },
   {
     "symbol": "SN64",
@@ -1303,18 +1304,17 @@
     "coin_id": "edgex",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 80,
     "entry_price": 0.382451,
     "first_seen_at": "2026-08-27T03:16:02.321657+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (92)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +45.0%)"
+      "RSI در محدوده سالم صعودی (69)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.9%)"
     ],
-    "latest_rsi": 92.1
+    "latest_rsi": 69.0
   },
   {
     "symbol": "ARRR",
@@ -1624,18 +1624,18 @@
     "coin_id": "casper-network",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 93,
+    "latest_score": 81,
     "entry_price": 0.0026792,
     "first_seen_at": "2026-08-27T03:16:35.880819+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (70)",
+      "RSI در محدوده سالم صعودی (62)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.0%)"
     ],
-    "latest_rsi": 69.7
+    "latest_rsi": 62.4
   },
   {
     "symbol": "HASH",
@@ -2107,17 +2107,17 @@
     "coin_id": "cross-2",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 62,
+    "latest_score": 50,
     "entry_price": 0.116649,
     "first_seen_at": "2026-08-27T03:17:26.178673+00:00",
-    "repeat_count": 6,
+    "repeat_count": 7,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
+      "مومنتوم صعودی ضعیف",
       "RSI اشباع خرید - احتیاط (74)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.8%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.2%)"
     ],
-    "latest_rsi": 73.8
+    "latest_rsi": 73.7
   },
   {
     "symbol": "NCT",
@@ -2520,18 +2520,18 @@
     "coin_id": "kava",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 70,
     "entry_price": 0.04723021,
     "first_seen_at": "2026-08-29T00:31:42.792096+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (90)",
+      "RSI اشباع خرید - احتیاط (79)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.2%)"
     ],
-    "latest_rsi": 90.0
+    "latest_rsi": 79.2
   },
   {
     "symbol": "US",
@@ -3121,17 +3121,17 @@
     "coin_id": "mina-protocol",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 61,
+    "latest_score": 50,
     "entry_price": 0.066936,
     "first_seen_at": "2026-09-01T04:57:02.982605+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (69)",
+      "RSI اشباع خرید - احتیاط (76)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.7%)"
     ],
-    "latest_rsi": 68.6
+    "latest_rsi": 76.2
   },
   {
     "symbol": "STABLE",
@@ -3857,10 +3857,10 @@
     "coin_id_confirmed": true,
     "name": "Backpack",
     "score": 93,
-    "latest_score": 82,
+    "latest_score": 73,
     "entry_price": 0.454362,
     "first_seen_at": "2026-09-03T16:20:22.765536+00:00",
-    "repeat_count": 6,
+    "repeat_count": 7,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -3870,13 +3870,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (71)",
+      "RSI در محدوده سالم صعودی (68)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +16.1%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.5%)"
     ],
     "entry_rsi": 59.2,
-    "latest_rsi": 70.6,
+    "latest_rsi": 67.8,
     "entry_alpha_vs_btc": 9.63
   },
   {
@@ -4353,10 +4352,10 @@
     "coin_id_confirmed": true,
     "name": "BUILDon",
     "score": 82,
-    "latest_score": 100,
+    "latest_score": 73,
     "entry_price": 0.196923,
     "first_seen_at": "2026-09-05T10:29:02.764028+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -4366,13 +4365,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (67)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
     ],
     "entry_rsi": 91.0,
-    "latest_rsi": 67.1,
+    "latest_rsi": 63.7,
     "entry_alpha_vs_btc": 53.64
   },
   {
