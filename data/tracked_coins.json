@@ -187,17 +187,17 @@
     "coin_id": "ether-fi",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 62,
+    "latest_score": 73,
     "entry_price": 0.585182,
     "first_seen_at": "2026-08-27T03:14:08.652490+00:00",
-    "repeat_count": 8,
+    "repeat_count": 9,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (85)",
+      "RSI در محدوده سالم صعودی (65)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.9%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.4%)"
     ],
-    "latest_rsi": 85.4
+    "latest_rsi": 65.4
   },
   {
     "symbol": "APT",
@@ -917,15 +917,15 @@
     "latest_score": 82,
     "entry_price": 1.32951e-07,
     "first_seen_at": "2026-08-27T03:15:24.144426+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (89)",
+      "RSI اشباع خرید - احتیاط (94)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +21.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.9%)"
     ],
-    "latest_rsi": 89.0
+    "latest_rsi": 93.6
   },
   {
     "symbol": "FOLD",
@@ -2180,17 +2180,17 @@
     "coin_id": "niu-lai",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 80,
+    "latest_score": 73,
     "entry_price": 0.04665938,
     "first_seen_at": "2026-08-27T03:17:33.806568+00:00",
-    "repeat_count": 10,
+    "repeat_count": 11,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (62)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +31.9%)"
+      "RSI در محدوده سالم صعودی (59)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +51.5%)"
     ],
-    "latest_rsi": 62.2
+    "latest_rsi": 58.5
   },
   {
     "symbol": "KITE",
@@ -2945,15 +2945,15 @@
     "latest_score": 58,
     "entry_price": 6.94,
     "first_seen_at": "2026-08-31T08:35:11.712588+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
       "RSI اشباع خرید - احتیاط (80)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.9%)"
     ],
-    "latest_rsi": 80.3
+    "latest_rsi": 80.0
   },
   {
     "symbol": "COW",
@@ -3361,10 +3361,10 @@
     "coin_id_confirmed": true,
     "name": "Nockchain",
     "score": 82,
-    "latest_score": 73,
+    "latest_score": 58,
     "entry_price": 0.02048805,
     "first_seen_at": "2026-09-01T20:58:12.872050+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -3374,12 +3374,11 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (70)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +58.7%)"
+      "RSI در حال خروج از منطقه خنثی (44)",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.3%)"
     ],
     "entry_rsi": 80.3,
-    "latest_rsi": 69.9,
+    "latest_rsi": 43.8,
     "entry_alpha_vs_btc": 9.38
   },
   {
@@ -4589,10 +4588,10 @@
     "coin_id_confirmed": true,
     "name": "Artificial Inu",
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 58,
     "entry_price": 0.220436,
     "first_seen_at": "2026-09-06T04:26:57.261982+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (51)",
@@ -4601,12 +4600,11 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (51)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.3%)"
+      "RSI در حال خروج از منطقه خنثی (48)",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.1%)"
     ],
     "entry_rsi": 50.8,
-    "latest_rsi": 50.8,
+    "latest_rsi": 47.6,
     "entry_alpha_vs_btc": 14.33
   },
   {
@@ -5319,5 +5317,33 @@
     "entry_rsi": 58.0,
     "latest_rsi": 58.0,
     "entry_alpha_vs_btc": 2.65
+  },
+  {
+    "symbol": "CHUMP",
+    "coin_id": "chump-coin",
+    "coin_id_confirmed": true,
+    "name": "Chump Coin",
+    "score": 100,
+    "latest_score": 100,
+    "entry_price": 0.04869948,
+    "first_seen_at": "2026-09-11T04:28:48.477143+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (63)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.6%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (63)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.6%)"
+    ],
+    "entry_rsi": 63.1,
+    "latest_rsi": 63.1,
+    "entry_alpha_vs_btc": 18.63
   }
 ]
