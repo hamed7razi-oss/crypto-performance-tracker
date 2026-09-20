@@ -1430,18 +1430,18 @@
     "coin_id": "the-graph",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 69,
+    "latest_score": 58,
     "entry_price": 0.01720906,
     "first_seen_at": "2026-08-27T03:16:04.950914+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (69)",
+      "RSI اشباع خرید - احتیاط (73)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.1%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.9%)"
     ],
-    "latest_rsi": 69.1
+    "latest_rsi": 73.5
   },
   {
     "symbol": "DRV",
@@ -1901,14 +1901,14 @@
     "latest_score": 62,
     "entry_price": 0.259771,
     "first_seen_at": "2026-08-27T03:16:52.601522+00:00",
-    "repeat_count": 18,
+    "repeat_count": 19,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (80)",
+      "RSI اشباع خرید - احتیاط (81)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +23.7%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.2%)"
     ],
-    "latest_rsi": 80.0
+    "latest_rsi": 80.6
   },
   {
     "symbol": "ONG",
@@ -1945,18 +1945,17 @@
     "coin_id": "peaq-2",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 73,
     "entry_price": 0.02169929,
     "first_seen_at": "2026-08-27T03:16:57.677077+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (75)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +21.9%)"
+      "RSI در محدوده سالم صعودی (64)",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.7%)"
     ],
-    "latest_rsi": 74.7
+    "latest_rsi": 63.6
   },
   {
     "symbol": "TWT",
@@ -2009,12 +2008,20 @@
   {
     "symbol": "MX",
     "coin_id": "mx-token",
-    "coin_id_confirmed": false,
+    "coin_id_confirmed": true,
     "score": 58,
     "latest_score": 58,
     "entry_price": 1.7,
     "first_seen_at": "2026-08-27T03:17:04.031268+00:00",
-    "repeat_count": 1
+    "repeat_count": 2,
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.1%)"
+    ],
+    "latest_rsi": 77.8
   },
   {
     "symbol": "STAC",
@@ -2338,18 +2345,17 @@
     "coin_id": "sonic-3",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 82,
+    "latest_score": 61,
     "entry_price": 0.03332222,
     "first_seen_at": "2026-08-27T03:17:36.323949+00:00",
-    "repeat_count": 8,
+    "repeat_count": 9,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (76)",
+      "RSI در محدوده سالم صعودی (69)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.3%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.8%)"
     ],
-    "latest_rsi": 75.6
+    "latest_rsi": 68.8
   },
   {
     "symbol": "AIOZ",
@@ -2384,17 +2390,18 @@
     "coin_id": "thorchain",
     "coin_id_confirmed": true,
     "score": 85,
-    "latest_score": 62,
+    "latest_score": 58,
     "entry_price": 0.570427,
     "first_seen_at": "2026-08-27T15:08:16.217655+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (74)",
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (72)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.2%)"
     ],
-    "latest_rsi": 73.6
+    "latest_rsi": 71.6
   },
   {
     "symbol": "XPIN",
@@ -2904,18 +2911,17 @@
     "coin_id": "velo",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 61,
     "entry_price": 0.00442256,
     "first_seen_at": "2026-08-30T05:15:15.164575+00:00",
-    "repeat_count": 6,
+    "repeat_count": 7,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (82)",
+      "RSI در محدوده سالم صعودی (70)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.8%)"
     ],
-    "latest_rsi": 81.6
+    "latest_rsi": 69.8
   },
   {
     "symbol": "DAI",
@@ -3124,18 +3130,18 @@
     "coin_id": "quack-ai",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 76,
     "entry_price": 0.02406793,
     "first_seen_at": "2026-08-31T17:33:30.248465+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
+      "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (75)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +24.8%)"
+      "RSI در محدوده سالم صعودی (69)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.9%)"
     ],
-    "latest_rsi": 74.9
+    "latest_rsi": 68.6
   },
   {
     "symbol": "NOT",
@@ -4034,10 +4040,10 @@
     "coin_id_confirmed": true,
     "name": "Backpack",
     "score": 93,
-    "latest_score": 82,
+    "latest_score": 62,
     "entry_price": 0.454362,
     "first_seen_at": "2026-09-03T16:20:22.765536+00:00",
-    "repeat_count": 12,
+    "repeat_count": 13,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -4047,13 +4053,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (85)",
+      "RSI اشباع خرید - احتیاط (80)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +28.5%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +26.1%)"
     ],
     "entry_rsi": 59.2,
-    "latest_rsi": 84.6,
+    "latest_rsi": 80.4,
     "entry_alpha_vs_btc": 9.63
   },
   {
@@ -4780,7 +4785,7 @@
     "latest_score": 73,
     "entry_price": 0.123898,
     "first_seen_at": "2026-09-06T10:48:58.257786+00:00",
-    "repeat_count": 11,
+    "repeat_count": 12,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -4790,12 +4795,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (67)",
+      "RSI در محدوده سالم صعودی (59)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +23.1%)"
     ],
     "entry_rsi": 92.0,
-    "latest_rsi": 67.3,
+    "latest_rsi": 58.6,
     "entry_alpha_vs_btc": 332.43
   },
   {
