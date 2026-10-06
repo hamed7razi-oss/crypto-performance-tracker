@@ -387,18 +387,18 @@
     "coin_id": "theta-token",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 69,
     "entry_price": 0.188082,
     "first_seen_at": "2026-08-27T03:14:21.518695+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
+      "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (77)",
+      "RSI در محدوده سالم صعودی (64)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.9%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.9%)"
     ],
-    "latest_rsi": 77.1
+    "latest_rsi": 63.7
   },
   {
     "symbol": "KMNO",
@@ -775,17 +775,18 @@
     "coin_id": "unibase",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 80,
+    "latest_score": 69,
     "entry_price": 0.123011,
     "first_seen_at": "2026-08-27T03:14:54.696563+00:00",
-    "repeat_count": 13,
+    "repeat_count": 14,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (54)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.1%)"
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.3%)"
     ],
-    "latest_rsi": 54.3
+    "latest_rsi": 65.3
   },
   {
     "symbol": "DCR",
@@ -1119,18 +1120,17 @@
     "coin_id": "layerzero",
     "coin_id_confirmed": true,
     "score": 50,
-    "latest_score": 100,
+    "latest_score": 73,
     "entry_price": 1.14,
     "first_seen_at": "2026-08-27T03:15:31.752823+00:00",
-    "repeat_count": 12,
+    "repeat_count": 13,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (59)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.2%)"
     ],
-    "latest_rsi": 58.8
+    "latest_rsi": 67.4
   },
   {
     "symbol": "CCD",
@@ -1294,18 +1294,18 @@
     "coin_id": "kinetiq",
     "coin_id_confirmed": true,
     "score": 85,
-    "latest_score": 82,
+    "latest_score": 70,
     "entry_price": 0.183846,
     "first_seen_at": "2026-08-27T03:15:48.450106+00:00",
-    "repeat_count": 13,
+    "repeat_count": 14,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (80)",
+      "RSI اشباع خرید - احتیاط (78)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +39.9%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.4%)"
     ],
-    "latest_rsi": 80.4
+    "latest_rsi": 77.5
   },
   {
     "symbol": "RAY",
@@ -1980,17 +1980,17 @@
     "coin_id": "bedrock-token",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 62,
+    "latest_score": 73,
     "entry_price": 0.259771,
     "first_seen_at": "2026-08-27T03:16:52.601522+00:00",
-    "repeat_count": 19,
+    "repeat_count": 20,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (81)",
+      "RSI در محدوده سالم صعودی (51)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.4%)"
     ],
-    "latest_rsi": 80.6
+    "latest_rsi": 51.1
   },
   {
     "symbol": "ONG",
@@ -2080,15 +2080,15 @@
     "latest_score": 70,
     "entry_price": 138.14,
     "first_seen_at": "2026-08-27T03:17:00.162804+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
+      "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (88)",
+      "RSI اشباع خرید - احتیاط (87)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.7%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.8%)"
     ],
-    "latest_rsi": 88.2
+    "latest_rsi": 87.4
   },
   {
     "symbol": "PMUSD",
@@ -6837,10 +6837,10 @@
     "coin_id_confirmed": true,
     "name": "Livepeer",
     "score": 81,
-    "latest_score": 81,
+    "latest_score": 93,
     "entry_price": 1.72,
     "first_seen_at": "2026-09-22T04:43:48.895491+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -6851,12 +6851,12 @@
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (67)",
+      "RSI در محدوده سالم صعودی (64)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.9%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
     ],
     "entry_rsi": 66.7,
-    "latest_rsi": 66.7,
+    "latest_rsi": 64.3,
     "entry_alpha_vs_btc": 3.91
   },
   {
@@ -7547,10 +7547,10 @@
     "coin_id_confirmed": true,
     "name": "XDC Network",
     "score": 62,
-    "latest_score": 62,
+    "latest_score": 70,
     "entry_price": 0.03451798,
     "first_seen_at": "2026-09-28T13:43:39.156663+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI اشباع خرید - احتیاط (78)",
@@ -7559,12 +7559,13 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (78)",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (72)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.4%)"
     ],
     "entry_rsi": 77.8,
-    "latest_rsi": 77.6,
+    "latest_rsi": 72.2,
     "entry_alpha_vs_btc": 13.45
   },
   {
@@ -7973,5 +7974,61 @@
     "entry_rsi": 79.9,
     "latest_rsi": 79.9,
     "entry_alpha_vs_btc": 2.26
+  },
+  {
+    "symbol": "RLC",
+    "coin_id": "iexec-rlc",
+    "coin_id_confirmed": true,
+    "name": "iExec RLC",
+    "score": 82,
+    "latest_score": 82,
+    "entry_price": 0.920852,
+    "first_seen_at": "2026-10-06T16:41:56.522052+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (98)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +146.3%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (98)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +146.3%)"
+    ],
+    "entry_rsi": 98.5,
+    "latest_rsi": 98.5,
+    "entry_alpha_vs_btc": 146.26
+  },
+  {
+    "symbol": "API3",
+    "coin_id": "api3",
+    "coin_id_confirmed": true,
+    "name": "Api3",
+    "score": 82,
+    "latest_score": 82,
+    "entry_price": 0.368046,
+    "first_seen_at": "2026-10-06T16:41:56.522083+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (85)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +34.8%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (85)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +34.8%)"
+    ],
+    "entry_rsi": 84.6,
+    "latest_rsi": 84.6,
+    "entry_alpha_vs_btc": 34.83
   }
 ]
