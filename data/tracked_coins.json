@@ -2125,15 +2125,15 @@
     "latest_score": 82,
     "entry_price": 0.241859,
     "first_seen_at": "2026-08-27T03:17:02.644378+00:00",
-    "repeat_count": 6,
+    "repeat_count": 7,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (81)",
+      "RSI اشباع خرید - احتیاط (84)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.8%)"
     ],
-    "latest_rsi": 81.3
+    "latest_rsi": 83.6
   },
   {
     "symbol": "MX",
@@ -2579,17 +2579,18 @@
     "coin_id": "safecoin",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 82,
     "entry_price": 0.146758,
     "first_seen_at": "2026-08-27T15:08:16.217698+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (63)",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (77)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.4%)"
     ],
-    "latest_rsi": 63.0
+    "latest_rsi": 76.5
   },
   {
     "symbol": "WEMIX",
@@ -8201,5 +8202,57 @@
     "entry_rsi": 62.3,
     "latest_rsi": 62.3,
     "entry_alpha_vs_btc": 10.1
+  },
+  {
+    "symbol": "HOODINU",
+    "coin_id": "hood-sword-inu",
+    "coin_id_confirmed": true,
+    "name": "Hood Sword Inu",
+    "score": 62,
+    "latest_score": 62,
+    "entry_price": 0.091784,
+    "first_seen_at": "2026-10-12T22:53:40.605127+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (97)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +85.0%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (97)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +85.0%)"
+    ],
+    "entry_rsi": 97.3,
+    "latest_rsi": 97.3,
+    "entry_alpha_vs_btc": 85.02
+  },
+  {
+    "symbol": "DATA",
+    "coin_id": "story-2",
+    "coin_id_confirmed": true,
+    "name": "Data Network",
+    "score": 61,
+    "latest_score": 61,
+    "entry_price": 0.210973,
+    "first_seen_at": "2026-10-12T22:53:40.605156+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+    ],
+    "entry_rsi": 63.8,
+    "latest_rsi": 63.8,
+    "entry_alpha_vs_btc": 8.07
   }
 ]
