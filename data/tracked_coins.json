@@ -2232,16 +2232,17 @@
     "coin_id": "instadapp",
     "coin_id_confirmed": true,
     "score": 85,
-    "latest_score": 58,
+    "latest_score": 63,
     "entry_price": 1.57,
     "first_seen_at": "2026-08-27T03:17:13.420574+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در حال خروج از منطقه خنثی (43)",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.5%)"
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "کراس صعودی MACD"
     ],
-    "latest_rsi": 42.9
+    "latest_rsi": 63.6
   },
   {
     "symbol": "BCE",
@@ -3304,17 +3305,18 @@
     "coin_id": "quack-ai",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 85,
+    "latest_score": 100,
     "entry_price": 0.02406793,
     "first_seen_at": "2026-08-31T17:33:30.248465+00:00",
-    "repeat_count": 10,
+    "repeat_count": 11,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (64)",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.0%)"
+      "RSI در محدوده سالم صعودی (63)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.4%)"
     ],
-    "latest_rsi": 64.4
+    "latest_rsi": 63.3
   },
   {
     "symbol": "NOT",
@@ -8071,10 +8073,10 @@
     "coin_id_confirmed": true,
     "name": "WINkLink",
     "score": 89,
-    "latest_score": 89,
+    "latest_score": 50,
     "entry_price": 5.454e-05,
     "first_seen_at": "2026-10-08T05:54:36.637474+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -8084,13 +8086,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (79)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+      "RSI اشباع خرید - احتیاط (75)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.9%)"
     ],
     "entry_rsi": 79.4,
-    "latest_rsi": 79.4,
+    "latest_rsi": 75.1,
     "entry_alpha_vs_btc": 8.27
   },
   {
@@ -8254,5 +8255,31 @@
     "entry_rsi": 63.8,
     "latest_rsi": 63.8,
     "entry_alpha_vs_btc": 8.07
+  },
+  {
+    "symbol": "IVVON",
+    "coin_id": "ishares-core-s-p-500-etf-ondo-tokenized-etf",
+    "coin_id_confirmed": true,
+    "name": "iShares Core S&P 500 ETF (Ondo Tokenized ETF)",
+    "score": 61,
+    "latest_score": 61,
+    "entry_price": 796.07,
+    "first_seen_at": "2026-10-13T06:40:53.071979+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (51)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +28.3%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (51)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +28.3%)"
+    ],
+    "entry_rsi": 51.1,
+    "latest_rsi": 51.1,
+    "entry_alpha_vs_btc": 28.26
   }
 ]
