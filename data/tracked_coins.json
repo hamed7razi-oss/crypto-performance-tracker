@@ -899,14 +899,14 @@
     "latest_score": 73,
     "entry_price": 0.00870583,
     "first_seen_at": "2026-08-27T03:15:09.809221+00:00",
-    "repeat_count": 24,
+    "repeat_count": 25,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (59)",
+      "RSI در محدوده سالم صعودی (51)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.3%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +26.7%)"
     ],
-    "latest_rsi": 59.4
+    "latest_rsi": 50.7
   },
   {
     "symbol": "FF",
@@ -8575,5 +8575,31 @@
     "entry_rsi": 54.9,
     "latest_rsi": 54.9,
     "entry_alpha_vs_btc": 11.53
+  },
+  {
+    "symbol": "MEW",
+    "coin_id": "cat-in-a-dogs-world",
+    "coin_id_confirmed": true,
+    "name": "cat in a dogs world",
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.00052344,
+    "first_seen_at": "2026-10-23T07:22:28.001855+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.3%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.3%)"
+    ],
+    "entry_rsi": 66.9,
+    "latest_rsi": 66.9,
+    "entry_alpha_vs_btc": 12.32
   }
 ]
