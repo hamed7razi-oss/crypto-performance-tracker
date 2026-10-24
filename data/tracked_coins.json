@@ -815,18 +815,17 @@
     "coin_id": "babylon",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 81,
+    "latest_score": 56,
     "entry_price": 0.01281042,
     "first_seen_at": "2026-08-27T03:14:57.182394+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (65)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.2%)"
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (57)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.7%)"
     ],
-    "latest_rsi": 65.4
+    "latest_rsi": 56.5
   },
   {
     "symbol": "FRXUSD",
@@ -2302,18 +2301,17 @@
     "coin_id": "acurast",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 50,
     "entry_price": 0.128464,
     "first_seen_at": "2026-08-27T03:17:19.791498+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
+      "مومنتوم صعودی ضعیف",
       "RSI اشباع خرید - احتیاط (71)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.4%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.4%)"
     ],
-    "latest_rsi": 70.7
+    "latest_rsi": 71.2
   },
   {
     "symbol": "MAGMA",
@@ -3810,10 +3808,10 @@
     "coin_id_confirmed": true,
     "name": "RedStone",
     "score": 73,
-    "latest_score": 81,
+    "latest_score": 61,
     "entry_price": 0.115397,
     "first_seen_at": "2026-09-02T00:02:13.332084+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (59)",
@@ -3822,13 +3820,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (67)",
+      "RSI در محدوده سالم صعودی (53)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.0%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.4%)"
     ],
     "entry_rsi": 59.3,
-    "latest_rsi": 66.6,
+    "latest_rsi": 52.5,
     "entry_alpha_vs_btc": 8.54
   },
   {
@@ -8663,10 +8660,10 @@
     "coin_id_confirmed": true,
     "name": "Moonbirds",
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 62,
     "entry_price": 0.170157,
     "first_seen_at": "2026-10-24T04:26:05.156521+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (63)",
@@ -8675,12 +8672,40 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (63)",
+      "RSI اشباع خرید - احتیاط (85)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +44.4%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +206.6%)"
     ],
     "entry_rsi": 63.0,
-    "latest_rsi": 63.0,
+    "latest_rsi": 85.0,
     "entry_alpha_vs_btc": 44.4
+  },
+  {
+    "symbol": "BARD",
+    "coin_id": "lombard-protocol",
+    "coin_id_confirmed": true,
+    "name": "Lombard",
+    "score": 81,
+    "latest_score": 81,
+    "entry_price": 0.116755,
+    "first_seen_at": "2026-10-24T10:49:09.789165+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+    ],
+    "entry_rsi": 64.3,
+    "latest_rsi": 64.3,
+    "entry_alpha_vs_btc": 8.32
   }
 ]
