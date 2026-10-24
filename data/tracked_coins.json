@@ -2119,17 +2119,17 @@
     "coin_id": "dappos",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 73,
+    "latest_score": 61,
     "entry_price": 0.241859,
     "first_seen_at": "2026-08-27T03:17:02.644378+00:00",
-    "repeat_count": 9,
+    "repeat_count": 10,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (68)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (67)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.4%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
     ],
-    "latest_rsi": 68.2
+    "latest_rsi": 66.7
   },
   {
     "symbol": "MX",
@@ -8395,10 +8395,10 @@
     "coin_id_confirmed": true,
     "name": "Impossible Cloud Network Token",
     "score": 82,
-    "latest_score": 62,
+    "latest_score": 61,
     "entry_price": 0.203952,
     "first_seen_at": "2026-10-17T06:51:20.765337+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -8407,13 +8407,13 @@
       "عملکرد قوی‌تر از بیت‌کوین (آلفا +37.5%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (81)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (55)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +52.4%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
     ],
     "entry_rsi": 81.7,
-    "latest_rsi": 81.1,
+    "latest_rsi": 54.9,
     "entry_alpha_vs_btc": 37.47
   },
   {
@@ -8707,5 +8707,31 @@
     "entry_rsi": 64.3,
     "latest_rsi": 64.3,
     "entry_alpha_vs_btc": 8.32
+  },
+  {
+    "symbol": "YELLOW",
+    "coin_id": "yellow",
+    "coin_id_confirmed": true,
+    "name": "Yellow",
+    "score": 73,
+    "latest_score": 73,
+    "entry_price": 0.175412,
+    "first_seen_at": "2026-10-24T22:24:45.587378+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (62)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +22.6%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (62)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +22.6%)"
+    ],
+    "entry_rsi": 62.1,
+    "latest_rsi": 62.1,
+    "entry_alpha_vs_btc": 22.55
   }
 ]
