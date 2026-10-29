@@ -652,18 +652,17 @@
     "coin_id": "ape-and-pepe",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 89,
+    "latest_score": 62,
     "entry_price": 1.26e-06,
     "first_seen_at": "2026-08-27T03:14:43.239442+00:00",
-    "repeat_count": 6,
+    "repeat_count": 7,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (77)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.0%)"
+      "RSI اشباع خرید - احتیاط (96)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.4%)"
     ],
-    "latest_rsi": 77.1
+    "latest_rsi": 95.7
   },
   {
     "symbol": "MET",
@@ -7510,10 +7509,10 @@
     "coin_id_confirmed": true,
     "name": "Huma Finance",
     "score": 82,
-    "latest_score": 73,
+    "latest_score": 62,
     "entry_price": 0.02964584,
     "first_seen_at": "2026-09-26T16:17:46.699742+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -7523,12 +7522,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (57)",
+      "RSI اشباع خرید - احتیاط (74)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +45.8%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.2%)"
     ],
     "entry_rsi": 76.2,
-    "latest_rsi": 57.1,
+    "latest_rsi": 74.2,
     "entry_alpha_vs_btc": 13.14
   },
   {
@@ -8347,10 +8346,10 @@
     "coin_id_confirmed": true,
     "name": "Swarm Network",
     "score": 62,
-    "latest_score": 62,
+    "latest_score": 82,
     "entry_price": 0.0223561,
     "first_seen_at": "2026-10-14T18:30:44.739682+00:00",
-    "repeat_count": 1,
+    "repeat_count": 2,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI اشباع خرید - احتیاط (77)",
@@ -8359,12 +8358,13 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (77)",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (81)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +45.1%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.6%)"
     ],
     "entry_rsi": 76.8,
-    "latest_rsi": 76.8,
+    "latest_rsi": 81.0,
     "entry_alpha_vs_btc": 45.09
   },
   {
