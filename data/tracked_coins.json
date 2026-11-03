@@ -1546,17 +1546,17 @@
     "coin_id": "cash-cat",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 61,
+    "latest_score": 62,
     "entry_price": 0.145842,
     "first_seen_at": "2026-08-27T03:16:08.732165+00:00",
-    "repeat_count": 17,
+    "repeat_count": 18,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (70)",
+      "RSI اشباع خرید - احتیاط (79)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.9%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.2%)"
     ],
-    "latest_rsi": 69.5
+    "latest_rsi": 79.0
   },
   {
     "symbol": "PURR",
@@ -3052,17 +3052,18 @@
     "coin_id": "pieverse",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 82,
     "entry_price": 1.13,
     "first_seen_at": "2026-08-29T22:37:05.855288+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (58)",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (71)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.1%)"
     ],
-    "latest_rsi": 57.6
+    "latest_rsi": 71.2
   },
   {
     "symbol": "ATOM",
@@ -7875,10 +7876,10 @@
     "coin_id_confirmed": true,
     "name": "Dolphin",
     "score": 82,
-    "latest_score": 62,
+    "latest_score": 73,
     "entry_price": 0.668937,
     "first_seen_at": "2026-10-02T12:23:13.379380+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -7888,12 +7889,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (78)",
+      "RSI در محدوده سالم صعودی (69)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.5%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +21.5%)"
     ],
     "entry_rsi": 95.8,
-    "latest_rsi": 77.9,
+    "latest_rsi": 68.6,
     "entry_alpha_vs_btc": 121.46
   },
   {
@@ -8948,10 +8949,10 @@
     "coin_id_confirmed": true,
     "name": "Holo",
     "score": 93,
-    "latest_score": 82,
+    "latest_score": 73,
     "entry_price": 0.00036293,
     "first_seen_at": "2026-10-31T05:24:51.780281+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -8961,13 +8962,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (73)",
+      "RSI در محدوده سالم صعودی (67)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +33.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +26.7%)"
     ],
     "entry_rsi": 56.6,
-    "latest_rsi": 72.8,
+    "latest_rsi": 66.9,
     "entry_alpha_vs_btc": 11.54
   },
   {
