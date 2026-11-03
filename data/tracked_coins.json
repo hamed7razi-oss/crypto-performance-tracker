@@ -1252,18 +1252,17 @@
     "coin_id": "spx6900",
     "coin_id_confirmed": true,
     "score": 55,
-    "latest_score": 93,
+    "latest_score": 56,
     "entry_price": 0.465488,
     "first_seen_at": "2026-08-27T03:15:44.610101+00:00",
-    "repeat_count": 11,
+    "repeat_count": 12,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (60)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.0%)"
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.2%)"
     ],
-    "latest_rsi": 60.1
+    "latest_rsi": 52.7
   },
   {
     "symbol": "XPL",
@@ -1546,17 +1545,17 @@
     "coin_id": "cash-cat",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 62,
+    "latest_score": 50,
     "entry_price": 0.145842,
     "first_seen_at": "2026-08-27T03:16:08.732165+00:00",
-    "repeat_count": 18,
+    "repeat_count": 19,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (79)",
+      "مومنتوم صعودی ضعیف",
+      "RSI اشباع خرید - احتیاط (81)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.4%)"
     ],
-    "latest_rsi": 79.0
+    "latest_rsi": 80.6
   },
   {
     "symbol": "PURR",
@@ -3018,34 +3017,35 @@
     "coin_id": "gmx",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 50,
+    "latest_score": 93,
     "entry_price": 8.08,
     "first_seen_at": "2026-08-29T19:22:34.119870+00:00",
-    "repeat_count": 8,
+    "repeat_count": 9,
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI اشباع خرید - احتیاط (78)",
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (65)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.7%)"
     ],
-    "latest_rsi": 78.4
+    "latest_rsi": 64.7
   },
   {
     "symbol": "PROS",
     "coin_id": "pharos-network",
     "coin_id_confirmed": true,
     "score": 73,
-    "latest_score": 61,
+    "latest_score": 73,
     "entry_price": 0.425025,
     "first_seen_at": "2026-08-29T19:22:34.119873+00:00",
-    "repeat_count": 15,
+    "repeat_count": 16,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (59)",
+      "RSI در محدوده سالم صعودی (51)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
     ],
-    "latest_rsi": 59.2
+    "latest_rsi": 50.5
   },
   {
     "symbol": "PIEVERSE",
@@ -3148,17 +3148,17 @@
     "coin_id": "starknet",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 73,
+    "latest_score": 56,
     "entry_price": 0.02620326,
     "first_seen_at": "2026-08-30T20:58:38.241243+00:00",
-    "repeat_count": 21,
+    "repeat_count": 22,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (62)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.0%)"
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (51)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.9%)"
     ],
-    "latest_rsi": 61.5
+    "latest_rsi": 50.6
   },
   {
     "symbol": "ZK",
@@ -8417,10 +8417,10 @@
     "coin_id_confirmed": true,
     "name": "Impossible Cloud Network Token",
     "score": 82,
-    "latest_score": 61,
+    "latest_score": 82,
     "entry_price": 0.203952,
     "first_seen_at": "2026-10-17T06:51:20.765337+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -8429,13 +8429,14 @@
       "عملکرد قوی‌تر از بیت‌کوین (آلفا +37.5%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (65)",
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (80)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +41.8%)"
     ],
     "entry_rsi": 81.7,
-    "latest_rsi": 65.1,
+    "latest_rsi": 79.8,
     "entry_alpha_vs_btc": 37.47
   },
   {
@@ -9101,5 +9102,33 @@
     "entry_rsi": 79.2,
     "latest_rsi": 79.2,
     "entry_alpha_vs_btc": 7.9
+  },
+  {
+    "symbol": "RITUAL",
+    "coin_id": "ritual",
+    "coin_id_confirmed": true,
+    "name": "Ritual",
+    "score": 89,
+    "latest_score": 89,
+    "entry_price": 0.02767546,
+    "first_seen_at": "2026-11-03T21:41:53.090739+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (71)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +42.9%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (71)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +42.9%)"
+    ],
+    "entry_rsi": 71.3,
+    "latest_rsi": 71.3,
+    "entry_alpha_vs_btc": 42.95
   }
 ]
