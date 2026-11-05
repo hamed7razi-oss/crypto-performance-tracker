@@ -2344,17 +2344,18 @@
     "coin_id": "cap-4",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 62,
+    "latest_score": 82,
     "entry_price": 0.071307,
     "first_seen_at": "2026-08-27T03:17:22.342426+00:00",
-    "repeat_count": 18,
+    "repeat_count": 19,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI اشباع خرید - احتیاط (72)",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (90)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +44.0%)"
     ],
-    "latest_rsi": 71.7
+    "latest_rsi": 90.0
   },
   {
     "symbol": "USDD",
