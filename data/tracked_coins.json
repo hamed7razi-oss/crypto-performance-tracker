@@ -900,17 +900,17 @@
     "coin_id": "akedo",
     "coin_id_confirmed": true,
     "score": 65,
-    "latest_score": 73,
+    "latest_score": 62,
     "entry_price": 0.00870583,
     "first_seen_at": "2026-08-27T03:15:09.809221+00:00",
-    "repeat_count": 31,
+    "repeat_count": 32,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (57)",
+      "RSI اشباع خرید - احتیاط (75)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +56.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +81.5%)"
     ],
-    "latest_rsi": 57.1
+    "latest_rsi": 74.6
   },
   {
     "symbol": "FF",
@@ -1302,17 +1302,17 @@
     "coin_id": "kinetiq",
     "coin_id_confirmed": true,
     "score": 85,
-    "latest_score": 66,
+    "latest_score": 61,
     "entry_price": 0.183846,
     "first_seen_at": "2026-08-27T03:15:48.450106+00:00",
-    "repeat_count": 28,
+    "repeat_count": 29,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در حال خروج از منطقه خنثی (44)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (54)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.7%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.5%)"
     ],
-    "latest_rsi": 43.9
+    "latest_rsi": 53.9
   },
   {
     "symbol": "RAY",
@@ -3099,18 +3099,17 @@
     "coin_id": "velo",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 82,
+    "latest_score": 61,
     "entry_price": 0.00442256,
     "first_seen_at": "2026-08-30T05:15:15.164575+00:00",
-    "repeat_count": 13,
+    "repeat_count": 14,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (76)",
+      "RSI در محدوده سالم صعودی (60)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.7%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.6%)"
     ],
-    "latest_rsi": 76.3
+    "latest_rsi": 60.4
   },
   {
     "symbol": "DAI",
@@ -4852,10 +4851,10 @@
     "coin_id_confirmed": true,
     "name": "TAGGER",
     "score": 73,
-    "latest_score": 73,
+    "latest_score": 61,
     "entry_price": 0.00073927,
     "first_seen_at": "2026-09-05T22:02:44.335677+00:00",
-    "repeat_count": 10,
+    "repeat_count": 11,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (67)",
@@ -4864,12 +4863,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (70)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.7%)"
+      "RSI در حال خروج از منطقه خنثی (41)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.6%)"
     ],
     "entry_rsi": 67.3,
-    "latest_rsi": 70.0,
+    "latest_rsi": 40.5,
     "entry_alpha_vs_btc": 9.84
   },
   {
@@ -6417,10 +6416,10 @@
     "coin_id_confirmed": true,
     "name": "Geodnet",
     "score": 73,
-    "latest_score": 82,
+    "latest_score": 62,
     "entry_price": 0.226342,
     "first_seen_at": "2026-09-17T07:33:45.533263+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (70)",
@@ -6429,13 +6428,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (86)",
+      "RSI اشباع خرید - احتیاط (75)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.5%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.0%)"
     ],
     "entry_rsi": 69.8,
-    "latest_rsi": 86.0,
+    "latest_rsi": 74.9,
     "entry_alpha_vs_btc": 9.14
   },
   {
