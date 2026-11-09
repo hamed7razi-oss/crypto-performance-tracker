@@ -654,15 +654,15 @@
     "latest_score": 70,
     "entry_price": 1.26e-06,
     "first_seen_at": "2026-08-27T03:14:43.239442+00:00",
-    "repeat_count": 9,
+    "repeat_count": 10,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (80)",
+      "RSI اشباع خرید - احتیاط (90)",
       "هیستوگرام MACD مثبت",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.9%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.3%)"
     ],
-    "latest_rsi": 80.0
+    "latest_rsi": 90.0
   },
   {
     "symbol": "MET",
@@ -9095,10 +9095,10 @@
     "coin_id_confirmed": true,
     "name": "Ritual",
     "score": 89,
-    "latest_score": 62,
+    "latest_score": 82,
     "entry_price": 0.02767546,
     "first_seen_at": "2026-11-03T21:41:53.090739+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -9108,12 +9108,13 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
       "RSI اشباع خرید - احتیاط (84)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +97.4%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +93.7%)"
     ],
     "entry_rsi": 71.3,
-    "latest_rsi": 84.0,
+    "latest_rsi": 83.7,
     "entry_alpha_vs_btc": 42.95
   },
   {
@@ -9176,10 +9177,10 @@
     "coin_id_confirmed": true,
     "name": "SpaceX xStock",
     "score": 54,
-    "latest_score": 61,
+    "latest_score": 69,
     "entry_price": 135.18,
     "first_seen_at": "2026-11-07T01:49:00.881240+00:00",
-    "repeat_count": 2,
+    "repeat_count": 3,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در حال خروج از منطقه خنثی (48)",
@@ -9188,12 +9189,13 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (52)",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.2%)"
     ],
     "entry_rsi": 48.2,
-    "latest_rsi": 51.9,
+    "latest_rsi": 68.3,
     "entry_alpha_vs_btc": 7.13
   },
   {
@@ -9249,5 +9251,57 @@
     "entry_rsi": 62.1,
     "latest_rsi": 62.1,
     "entry_alpha_vs_btc": 94.22
+  },
+  {
+    "symbol": "GOOGLB",
+    "coin_id": "alphabet-bstocks-tokenized-stock",
+    "coin_id_confirmed": true,
+    "name": "Alphabet (bStocks Tokenized Stock)",
+    "score": 56,
+    "latest_score": 56,
+    "entry_price": 288.71,
+    "first_seen_at": "2026-11-09T09:38:19.636551+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (60)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (60)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "entry_rsi": 59.6,
+    "latest_rsi": 59.6,
+    "entry_alpha_vs_btc": 2.8
+  },
+  {
+    "symbol": "GOOGLX",
+    "coin_id": "alphabet-xstock",
+    "coin_id_confirmed": true,
+    "name": "Alphabet xStock",
+    "score": 56,
+    "latest_score": 56,
+    "entry_price": 289.44,
+    "first_seen_at": "2026-11-09T09:38:19.636578+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (59)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (59)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "entry_rsi": 58.8,
+    "latest_rsi": 58.8,
+    "entry_alpha_vs_btc": 2.83
   }
 ]
