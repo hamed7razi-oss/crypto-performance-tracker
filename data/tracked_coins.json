@@ -950,18 +950,17 @@
     "coin_id": "non-playable-coin",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 93,
+    "latest_score": 54,
     "entry_price": 0.00898302,
     "first_seen_at": "2026-08-27T03:15:13.854993+00:00",
-    "repeat_count": 14,
+    "repeat_count": 15,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (60)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در حال خروج از منطقه خنثی (46)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.3%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
     ],
-    "latest_rsi": 60.4
+    "latest_rsi": 46.4
   },
   {
     "symbol": "WKC",
@@ -2937,17 +2936,17 @@
     "coin_id": "o1-exchange",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 73,
+    "latest_score": 50,
     "entry_price": 0.527408,
     "first_seen_at": "2026-08-29T15:00:47.457875+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (63)",
+      "RSI اشباع خرید - احتیاط (80)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
     ],
-    "latest_rsi": 62.5
+    "latest_rsi": 79.8
   },
   {
     "symbol": "MARSCOIN",
@@ -3323,17 +3322,17 @@
     "coin_id": "quack-ai",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 54,
+    "latest_score": 73,
     "entry_price": 0.02406793,
     "first_seen_at": "2026-08-31T17:33:30.248465+00:00",
-    "repeat_count": 30,
+    "repeat_count": 31,
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI در حال خروج از منطقه خنثی (43)",
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (53)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
     ],
-    "latest_rsi": 42.9
+    "latest_rsi": 53.2
   },
   {
     "symbol": "NOT",
@@ -5314,10 +5313,10 @@
     "coin_id_confirmed": true,
     "name": "Nexpace",
     "score": 76,
-    "latest_score": 89,
+    "latest_score": 54,
     "entry_price": 0.2149,
     "first_seen_at": "2026-09-08T11:09:00.467316+00:00",
-    "repeat_count": 3,
+    "repeat_count": 4,
     "reasons": [
       "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
@@ -5327,13 +5326,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (72)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.0%)"
+      "RSI در حال خروج از منطقه خنثی (46)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.7%)"
     ],
     "entry_rsi": 61.8,
-    "latest_rsi": 72.5,
+    "latest_rsi": 45.6,
     "entry_alpha_vs_btc": 4.21
   },
   {
@@ -8513,10 +8511,10 @@
     "coin_id_confirmed": true,
     "name": "SanDisk (bStocks Tokenized Stock)",
     "score": 61,
-    "latest_score": 82,
+    "latest_score": 61,
     "entry_price": 1344.35,
     "first_seen_at": "2026-10-19T12:57:36.136191+00:00",
-    "repeat_count": 4,
+    "repeat_count": 5,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "RSI در محدوده سالم صعودی (64)",
@@ -8524,14 +8522,13 @@
       "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (80)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (60)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.8%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.3%)"
     ],
     "entry_rsi": 64.4,
-    "latest_rsi": 80.4,
+    "latest_rsi": 60.4,
     "entry_alpha_vs_btc": 4.48
   },
   {
