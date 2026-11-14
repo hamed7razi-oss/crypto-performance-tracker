@@ -916,18 +916,17 @@
     "coin_id": "falcon-finance-ff",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 93,
+    "latest_score": 61,
     "entry_price": 0.077169,
     "first_seen_at": "2026-08-27T03:15:11.317688+00:00",
-    "repeat_count": 18,
+    "repeat_count": 19,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (70)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (58)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.7%)"
     ],
-    "latest_rsi": 69.8
+    "latest_rsi": 58.1
   },
   {
     "symbol": "STX",
@@ -1440,14 +1439,14 @@
     "latest_score": 73,
     "entry_price": 5.28,
     "first_seen_at": "2026-08-27T03:15:59.843892+00:00",
-    "repeat_count": 20,
+    "repeat_count": 21,
     "latest_reasons": [
       "مومنتوم صعودی پیوسته",
-      "RSI در حال خروج از منطقه خنثی (48)",
-      "کراس صعودی MACD",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.0%)"
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.3%)"
     ],
-    "latest_rsi": 48.4
+    "latest_rsi": 52.6
   },
   {
     "symbol": "APE",
@@ -2420,18 +2419,17 @@
     "coin_id": "plume",
     "coin_id_confirmed": true,
     "score": 58,
-    "latest_score": 81,
+    "latest_score": 61,
     "entry_price": 0.01405744,
     "first_seen_at": "2026-08-27T03:17:29.961798+00:00",
-    "repeat_count": 10,
+    "repeat_count": 11,
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
-      "شکست مقاومت اخیر",
-      "RSI در محدوده سالم صعودی (68)",
+      "RSI در محدوده سالم صعودی (58)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.0%)"
     ],
-    "latest_rsi": 67.6
+    "latest_rsi": 58.1
   },
   {
     "symbol": "REQ",
@@ -4003,10 +4001,10 @@
     "coin_id_confirmed": true,
     "name": "Sentient",
     "score": 69,
-    "latest_score": 73,
+    "latest_score": 61,
     "entry_price": 0.01326233,
     "first_seen_at": "2026-09-02T20:57:58.992103+00:00",
-    "repeat_count": 20,
+    "repeat_count": 21,
     "reasons": [
       "مومنتوم صعودی ضعیف",
       "شکست مقاومت اخیر",
@@ -4015,13 +4013,13 @@
       "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.7%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "RSI در محدوده سالم صعودی (56)",
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
       "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.2%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
     ],
     "entry_rsi": 69.1,
-    "latest_rsi": 55.9,
+    "latest_rsi": 52.7,
     "entry_alpha_vs_btc": 3.74
   },
   {
@@ -6802,10 +6800,10 @@
     "coin_id_confirmed": true,
     "name": "Merlin Chain",
     "score": 82,
-    "latest_score": 56,
+    "latest_score": 61,
     "entry_price": 0.02739176,
     "first_seen_at": "2026-09-21T12:40:11.821256+00:00",
-    "repeat_count": 14,
+    "repeat_count": 15,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -6815,12 +6813,12 @@
     ],
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (68)",
-      "کراس صعودی MACD",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.0%)"
+      "RSI در محدوده سالم صعودی (54)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
     ],
     "entry_rsi": 76.9,
-    "latest_rsi": 67.7,
+    "latest_rsi": 53.8,
     "entry_alpha_vs_btc": 9.45
   },
   {
@@ -9441,5 +9439,31 @@
     "entry_rsi": 72.2,
     "latest_rsi": 72.2,
     "entry_alpha_vs_btc": 126.68
+  },
+  {
+    "symbol": "VANTA",
+    "coin_id": "proprietary-trading-network",
+    "coin_id_confirmed": true,
+    "name": "Vanta Network",
+    "score": 61,
+    "latest_score": 61,
+    "entry_price": 8.0,
+    "first_seen_at": "2026-11-14T06:07:15.774697+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+    ],
+    "entry_rsi": 52.7,
+    "latest_rsi": 52.7,
+    "entry_alpha_vs_btc": 9.39
   }
 ]
