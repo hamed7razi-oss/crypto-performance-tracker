@@ -561,17 +561,18 @@
     "coin_id": "unitas",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 61,
+    "latest_score": 100,
     "entry_price": 0.428209,
     "first_seen_at": "2026-08-27T03:14:35.586716+00:00",
-    "repeat_count": 18,
+    "repeat_count": 19,
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (67)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.4%)"
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.3%)"
     ],
-    "latest_rsi": 67.5
+    "latest_rsi": 64.4
   },
   {
     "symbol": "GRASS",
@@ -2480,18 +2481,17 @@
     "coin_id": "kite-2",
     "coin_id_confirmed": true,
     "score": 100,
-    "latest_score": 82,
+    "latest_score": 68,
     "entry_price": 0.12374,
     "first_seen_at": "2026-08-27T03:17:35.079418+00:00",
-    "repeat_count": 26,
+    "repeat_count": 27,
     "latest_reasons": [
-      "مومنتوم صعودی پیوسته",
-      "شکست مقاومت اخیر",
-      "RSI اشباع خرید - احتیاط (81)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.9%)"
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (58)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
     ],
-    "latest_rsi": 81.0
+    "latest_rsi": 58.1
   },
   {
     "symbol": "S",
@@ -2950,17 +2950,16 @@
     "coin_id": "o1-exchange",
     "coin_id_confirmed": true,
     "score": 75,
-    "latest_score": 61,
+    "latest_score": 53,
     "entry_price": 0.527408,
     "first_seen_at": "2026-08-29T15:00:47.457875+00:00",
-    "repeat_count": 7,
+    "repeat_count": 8,
     "latest_reasons": [
       "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (61)",
-      "هیستوگرام MACD مثبت",
-      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.8%)"
+      "RSI در محدوده سالم صعودی (52)",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.7%)"
     ],
-    "latest_rsi": 61.2
+    "latest_rsi": 52.3
   },
   {
     "symbol": "MARSCOIN",
@@ -3692,10 +3691,10 @@
     "coin_id_confirmed": true,
     "name": "Comedian",
     "score": 100,
-    "latest_score": 56,
+    "latest_score": 100,
     "entry_price": 0.075771,
     "first_seen_at": "2026-09-01T20:58:12.872006+00:00",
-    "repeat_count": 5,
+    "repeat_count": 6,
     "reasons": [
       "مومنتوم صعودی پیوسته",
       "شکست مقاومت اخیر",
@@ -3704,13 +3703,14 @@
       "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.5%)"
     ],
     "latest_reasons": [
-      "مومنتوم صعودی ضعیف",
-      "RSI در محدوده سالم صعودی (61)",
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (62)",
       "کراس صعودی MACD",
-      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.3%)"
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.0%)"
     ],
     "entry_rsi": 67.3,
-    "latest_rsi": 60.9,
+    "latest_rsi": 62.4,
     "entry_alpha_vs_btc": 9.52
   },
   {
@@ -9607,5 +9607,31 @@
     "entry_rsi": 86.5,
     "latest_rsi": 86.5,
     "entry_alpha_vs_btc": 42.02
+  },
+  {
+    "symbol": "ZCHF",
+    "coin_id": "frankencoin",
+    "coin_id_confirmed": true,
+    "name": "Frankencoin",
+    "score": 61,
+    "latest_score": 61,
+    "entry_price": 1.18,
+    "first_seen_at": "2026-11-21T01:24:09.329598+00:00",
+    "repeat_count": 1,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (50)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.0%)"
+    ],
+    "latest_reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (50)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.0%)"
+    ],
+    "entry_rsi": 50.0,
+    "latest_rsi": 50.0,
+    "entry_alpha_vs_btc": 8.03
   }
 ]
